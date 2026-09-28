@@ -101,7 +101,6 @@ export default function HomePage() {
             <img
               src="/gallery/pg-015-313.jpg"
               alt="Free medical camp organized by the society"
-              alt="Free medical camp organized by the society"
               width={900}
               height={600}
             />

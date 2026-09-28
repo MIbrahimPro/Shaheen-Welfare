@@ -58,7 +58,7 @@ export async function notifyNewEntry(type: string, data: Record<string, unknown>
     to,
     subject: `[Website] ${title}`,
     html,
-    reply_to: typeof data.email === 'string' ? data.email : undefined,
+    replyTo: typeof data.email === 'string' ? data.email : undefined,
   });
 }
 

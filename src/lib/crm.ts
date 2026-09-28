@@ -87,7 +87,7 @@ export async function listEntries(
   }
 
   const sb = client();
-  const { data: folders } = await sb.storage.from(BUCKET).list(type, { limit: 100, sortBy: { column: 'name', ascending: false } });
+  const { data: folders } = await sb.storage.from(BUCKET).list(type, { limit: 100, sortBy: { column: 'name', order: 'desc' } });
   const files = (folders ?? []).filter((f) => f.name.endsWith('.jsonl'));
   const out: CrmEntry[] = [];
   for (const f of files) {
