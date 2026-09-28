@@ -2,6 +2,7 @@
 
 import { Suspense, useState, type FormEvent } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { BASE } from '@/lib/site';
 
 function LoginForm() {
   const router = useRouter();
@@ -14,7 +15,7 @@ function LoginForm() {
     setBusy(true);
     setError('');
     const data = Object.fromEntries(new FormData(e.currentTarget).entries());
-    const res = await fetch('/api/admin/login', {
+    const res = await fetch(`${BASE}/api/admin/login`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data),

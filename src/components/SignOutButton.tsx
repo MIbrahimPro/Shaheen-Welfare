@@ -2,6 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
+import { BASE } from '@/lib/site';
 
 export default function SignOutButton() {
   const router = useRouter();
@@ -9,7 +10,7 @@ export default function SignOutButton() {
 
   async function signOut() {
     setBusy(true);
-    await fetch('/api/admin/logout', { method: 'POST' });
+    await fetch(`${BASE}/api/admin/logout`, { method: 'POST' });
     router.push('/admin/login');
     router.refresh();
   }

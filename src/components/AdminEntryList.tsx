@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { BASE } from '@/lib/site';
 
 export interface AdminEntry {
   id: string;
@@ -46,7 +47,7 @@ export default function AdminEntryList({ type, entries }: { type: string; entrie
   async function setStatus(id: string, status: string) {
     setBusyId(id);
     setError('');
-    const res = await fetch(`/api/admin/entries/${type}/${id}`, {
+    const res = await fetch(`${BASE}/api/admin/entries/${type}/${id}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ status }),
