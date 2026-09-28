@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import { PROJECTS } from '@/lib/content';
 
 export const metadata: Metadata = {
@@ -12,9 +13,7 @@ export default function ProjectsPage() {
     <>
       <div className="page-head">
         <div className="wrap">
-          <div className="breadcrumbs">
-            <a href="/">Home</a> / Projects
-          </div>
+          <Breadcrumbs current="Projects" />
           <h1>Projects implemented</h1>
           <p>
             Forty projects since 2001 — from schools and clinics to election observation and flood

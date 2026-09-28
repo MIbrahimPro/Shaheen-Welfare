@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import FormBlock from '@/components/FormBlock';
 import { PROGRAMS } from '@/lib/content';
 
@@ -14,9 +15,7 @@ export default function VolunteerPage() {
     <>
       <div className="page-head">
         <div className="wrap">
-          <div className="breadcrumbs">
-            <a href="/">Home</a> / Volunteer
-          </div>
+          <Breadcrumbs current="Volunteer" />
           <h1>Volunteer with us</h1>
           <p>
             Our five volunteers are the backbone of every distribution day, medical camp and literacy

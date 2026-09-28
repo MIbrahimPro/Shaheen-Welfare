@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import Link from 'next/link';
 import { CORE_VALUES, OBJECTIVES, PARTNERS } from '@/lib/content';
 
@@ -13,9 +14,7 @@ export default function AboutPage() {
     <>
       <div className="page-head">
         <div className="wrap">
-          <div className="breadcrumbs">
-            <a href="/">Home</a> / About
-          </div>
+          <Breadcrumbs current="About" />
           <h1>About the Society</h1>
           <p>
             Registered under The Voluntary Social Welfare Agencies (Registration and Control)

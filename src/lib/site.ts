@@ -15,6 +15,9 @@ export const SITE = {
   founded: 2001,
 } as const;
 
+/** Base path when the app is served under a sub-path (e.g. /shaheen-welfare). */
+export const BASE = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export const NAV = [
   { href: '/about', label: 'About' },
   { href: '/programs', label: 'Programs' },

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import FormBlock from '@/components/FormBlock';
 import { SITE } from '@/lib/site';
 
@@ -12,9 +13,7 @@ export default function ContactPage() {
     <>
       <div className="page-head">
         <div className="wrap">
-          <div className="breadcrumbs">
-            <a href="/">Home</a> / Contact
-          </div>
+          <Breadcrumbs current="Contact" />
           <h1>Contact us</h1>
           <p>Write to us, visit the office, or call — we answer every message.</p>
         </div>

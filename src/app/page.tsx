@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { PROGRAMS, PARTNERS } from '@/lib/content';
-import { SITE } from '@/lib/site';
+import { BASE } from '@/lib/site';
 
 export default function HomePage() {
   return (
@@ -30,7 +30,7 @@ export default function HomePage() {
             </div>
             <figure className="hero-figure">
               <img
-                src="/gallery/pg-008-033.jpg"
+                src={`${BASE}/gallery/pg-008-033.jpg`}
                 alt="Children of Shaheen Cadet School in class"
                 width={900}
                 height={600}
@@ -99,7 +99,7 @@ export default function HomePage() {
           </div>
           <figure className="figure">
             <img
-              src="/gallery/pg-015-313.jpg"
+              src={`${BASE}/gallery/pg-015-313.jpg`}
               alt="Free medical camp organized by the society"
               width={900}
               height={600}

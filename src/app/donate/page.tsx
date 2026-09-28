@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import FormBlock from '@/components/FormBlock';
 import { SITE } from '@/lib/site';
 
@@ -22,9 +23,7 @@ export default function DonatePage() {
     <>
       <div className="page-head">
         <div className="wrap">
-          <div className="breadcrumbs">
-            <a href="/">Home</a> / Donate
-          </div>
+          <Breadcrumbs current="Donate" />
           <h1>Donate</h1>
           <p>
             No middlemen, no overseas accounts. Your donation moves directly from the bank to the

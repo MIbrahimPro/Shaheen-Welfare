@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Breadcrumbs from '@/components/Breadcrumbs';
 import Link from 'next/link';
 import { PROGRAMS } from '@/lib/content';
 
@@ -13,9 +14,7 @@ export default function ProgramsPage() {
     <>
       <div className="page-head">
         <div className="wrap">
-          <div className="breadcrumbs">
-            <a href="/">Home</a> / Programs
-          </div>
+          <Breadcrumbs current="Programs" />
           <h1>Programs</h1>
           <p>Six long-term program areas through which all of our projects are delivered.</p>
         </div>

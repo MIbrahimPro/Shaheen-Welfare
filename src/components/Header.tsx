@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { NAV, SITE } from '@/lib/site';
+import { NAV, SITE, BASE } from '@/lib/site';
 
 export default function Header() {
   const pathname = usePathname();
@@ -24,7 +24,7 @@ export default function Header() {
       <header className="header">
         <div className="wrap">
           <Link href="/" className="brand" onClick={() => setOpen(false)}>
-            <img src="/logo.jpeg" alt={`${SITE.name} logo`} />
+            <img src={`${BASE}/logo.jpeg`} alt={`${SITE.name} logo`} />
             <span>
               <span className="brand-name">Shaheen Welfare Society</span>
               <br />

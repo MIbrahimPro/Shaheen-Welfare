@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import fs from 'node:fs';
 import path from 'node:path';
+import { BASE } from '@/lib/site';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
   title: 'Gallery',
@@ -24,14 +26,12 @@ function loadGallery(): GalleryImage[] {
 }
 
 export default function GalleryPage() {
-  const images = loadGallery();
+  const images = loadGallery().map((img) => ({ ...img, src: `${BASE}${img.src}` }));
   return (
     <>
       <div className="page-head">
         <div className="wrap">
-          <div className="breadcrumbs">
-            <a href="/">Home</a> / Gallery
-          </div>
+          <Breadcrumbs current="Gallery" />
           <h1>Gallery</h1>
           <p>
             Photographs from the organization profile — classrooms, camps, distributions and
