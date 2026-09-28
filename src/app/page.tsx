@@ -30,7 +30,7 @@ export default function HomePage() {
             </div>
             <figure className="hero-figure">
               <img
-                src="https://res.cloudinary.com/dqko0su7k/image/upload/w_900,f_auto,q_auto/v1758342000/shaheen/hero-school.jpg"
+                src="/gallery/pg-008-033.jpg"
                 alt="Children of Shaheen Cadet School in class"
                 width={900}
                 height={600}
@@ -99,7 +99,8 @@ export default function HomePage() {
           </div>
           <figure className="figure">
             <img
-              src="https://res.cloudinary.com/dqko0su7k/image/upload/w_900,f_auto,q_auto/v1758342000/shaheen/camp-medical.jpg"
+              src="/gallery/pg-015-313.jpg"
+              alt="Free medical camp organized by the society"
               alt="Free medical camp organized by the society"
               width={900}
               height={600}
