@@ -14,18 +14,18 @@ const SRC = process.env.GALLERY_SRC || '/tmp/shaheen-select';
 const DEST = join(process.cwd(), 'public', 'gallery');
 const MANIFEST = join(process.cwd(), 'public', 'gallery.json');
 
-/** Captions keyed by PDF page number (pages 7-26 carry the photo reportage). */
+/** Captions verified against the actual images (contact-sheet review), keyed by PDF page. */
 const CAPTIONS = {
-  7: 'Shaheen Cadet School — classrooms and students',
-  8: 'Wheelchairs and mobility support for persons with disabilities',
-  9: 'Distribution ceremonies — uniforms, wheelchairs and awards',
-  10: 'Vocational training — sewing machines for women',
+  7: 'Shaheen Cadet School — photo albums from the early years',
+  8: 'School events, classrooms and prize ceremonies',
+  9: 'Wheelchairs, seminars and distribution ceremonies',
+  10: 'Program activities and community seminars',
   11: 'Seminars and community programs',
-  12: 'Provision of uniforms to orphaned and needy students',
+  12: 'Uniform distribution for orphaned and needy students',
   13: 'Eid gifts and packages for orphans and widows',
-  14: 'Plantation drives',
-  15: 'Free medical camps',
-  16: 'Aid for flood-affected families',
+  14: 'Voter education for a vibrant tomorrow',
+  15: 'Community sessions and medical activities',
+  16: 'Awareness seminars with invited guests',
   17: 'Field activities and community camps',
   18: 'Field activities and community camps',
   19: 'Field activities and community camps',
@@ -35,7 +35,7 @@ const CAPTIONS = {
   23: 'Awareness sessions and youth dialogues',
   24: 'Awareness sessions and youth dialogues',
   25: 'Awareness sessions and youth dialogues',
-  26: 'Public message and memorial',
+  26: 'Public message and memorial events',
 };
 
 function captionFor(file) {

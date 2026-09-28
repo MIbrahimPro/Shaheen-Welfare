@@ -30,12 +30,12 @@ export default function HomePage() {
             </div>
             <figure className="hero-figure">
               <img
-                src={`${BASE}/gallery/pg-008-033.jpg`}
-                alt="Children of Shaheen Cadet School in class"
+                src={`${BASE}/gallery/pg-016-348.jpg`}
+                alt="A Shaheen Welfare Society seminar with invited guests"
                 width={900}
                 height={600}
               />
-              <figcaption>Shaheen Cadet School — free schooling for orphaned and needy children, 2001–2018.</figcaption>
+              <figcaption>Community seminar hosted by the society — guests, elders and office bearers.</figcaption>
             </figure>
           </div>
           <div className="hero-stats">
@@ -99,12 +99,12 @@ export default function HomePage() {
           </div>
           <figure className="figure">
             <img
-              src={`${BASE}/gallery/pg-015-313.jpg`}
-              alt="Free medical camp organized by the society"
+              src={`${BASE}/gallery/pg-009-075.jpg`}
+              alt="Speaker at the Shaheen Welfare Society podium during a community seminar"
               width={900}
               height={600}
             />
-            <figcaption>A free medical camp — preventive care where people live, not where it is convenient for us.</figcaption>
+            <figcaption>A society seminar — evidence in hand, citizens in front.</figcaption>
           </figure>
         </div>
       </section>
