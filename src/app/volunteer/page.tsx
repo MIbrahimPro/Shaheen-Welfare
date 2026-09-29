@@ -5,7 +5,7 @@ import { PROGRAMS } from '@/lib/content';
 
 export const metadata: Metadata = {
   title: 'Volunteer',
-  description: 'Volunteer with Shaheen Welfare Society — teachers, medical teams, trainers and community organizers welcome.',
+  description: 'Volunteer with Shaheen Welfare Society: teachers, medical teams, trainers and community organizers welcome.',
 };
 
 const INTERESTS = [...PROGRAMS.map((p) => p.title), 'General support / wherever needed'];
@@ -58,7 +58,7 @@ export default function VolunteerPage() {
               <ul className="impact-list">
                 <li>You register here and tell us where you can help.</li>
                 <li>Our coordinator calls you within a week.</li>
-                <li>You join a real activity — a camp, a class, a distribution.</li>
+                <li>You join a real activity: a camp, a class, a distribution.</li>
                 <li>You decide how often to continue. No pressure.</li>
               </ul>
             </div>

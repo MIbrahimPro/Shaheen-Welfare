@@ -12,7 +12,7 @@ export const PROGRAMS: Program[] = [
     intro:
       'From a cadet school for orphans to sixty non-formal schools and an ongoing literacy campaign, education has been at the heart of our work since 2001.',
     items: [
-      'Shaheen Cadet School (2001–2018) — free quality schooling for orphaned and needy children',
+      'Shaheen Cadet School (2001–2018): free quality schooling for orphaned and needy children',
       '60 Non-Formal Basic Education Schools with the Literacy Department (2005)',
       'Literacy campaign “Apna Haq Jana” (ongoing)',
       'Rise Education Project in partnership with Bedari (2024)',
@@ -43,14 +43,14 @@ export const PROGRAMS: Program[] = [
     items: [
       'Wheelchairs, tricycles and prosthetic forms',
       'Financial assistance for disability cards',
-      'Vocational training — sewing machines for economic independence',
+      'Vocational training: sewing machines for economic independence',
     ],
   },
   {
     slug: 'social-welfare',
     title: 'Social Welfare & Relief',
     intro:
-      'Direct support for orphans, widows and families in crisis — from Ramadan packages to flood relief and legal aid.',
+      'Direct support for orphans, widows and families in crisis, from Ramadan packages to flood relief and legal aid.',
     items: [
       'Ramadan and Eid packages for orphans and widows',
       'Legal assistance for the poor and marginalized',
@@ -64,14 +64,14 @@ export const PROGRAMS: Program[] = [
     slug: 'governance',
     title: 'Governance & Advocacy',
     intro:
-      'Helping citizens — especially women and youth — claim their democratic rights, from voter education to election observation.',
+      'Helping citizens, especially women and youth, claim their democratic rights, from voter education to election observation.',
     items: [
       'Citizen Voice in Local Government Budget (USAID/DTW, 2008)',
       'Voter education (SNEP, 2007)',
       'Women’s voting awareness (ongoing)',
       'Promoting Democratic Thinking with Bedari & FAFEN (2024)',
       'Election observation in Bhera and Bhalwal (2024)',
-      'Youth Dialogue — Empowering Youth Voices (Bedari & FAFEN, 2024)',
+      'Youth Dialogue: Empowering Youth Voices (Bedari & FAFEN, 2024)',
       'Birth and death registration campaign (ongoing)',
       'Human rights awareness and prevention of violence against women',
     ],
@@ -118,7 +118,7 @@ export const PROJECTS: Project[] = [
   { title: 'Literacy Campaign “Apna Haq Jana”', partner: 'Local donors', duration: 'Ongoing' },
   { title: 'Citizen Voice in Local Government Budget', partner: 'USAID / DTW Project', duration: '2008' },
   { title: 'Relief Camp for Flood Victims', partner: 'Founder’s Initiative / local community', duration: '2010' },
-  { title: 'Awareness Campaign against TB', partner: 'The Asia Foundation', duration: '—' },
+  { title: 'Awareness Campaign against TB', partner: 'The Asia Foundation', duration: 'Not stated' },
   { title: 'Advocacy for Kitchen Gardens', partner: 'Government of Punjab', duration: '2011' },
   { title: 'Establishment of Local Council Association at UC Level', partner: 'DTCE', duration: '2011' },
   { title: 'Birth & Death Registration Campaign', partner: 'Local funding', duration: 'Ongoing' },
@@ -136,7 +136,7 @@ export const PROJECTS: Project[] = [
   { title: 'Promoting Democratic Thinking and Women’s Vote', partner: 'Bedari & FAFEN', duration: '2024' },
   { title: 'Youth Awareness on Voting', partner: 'Bedari & FAFEN', duration: '2024' },
   { title: 'Election Observation (Bhera & Bhalwal)', partner: 'Bedari & FAFEN', duration: '2024' },
-  { title: 'Youth Dialogue — Empowering Youth Voices', partner: 'Bedari & FAFEN', duration: '2024' },
+  { title: 'Youth Dialogue: Empowering Youth Voices', partner: 'Bedari & FAFEN', duration: '2024' },
   { title: 'Rise Education Project', partner: 'In partnership with Bedari', duration: '2024' },
 ];
 

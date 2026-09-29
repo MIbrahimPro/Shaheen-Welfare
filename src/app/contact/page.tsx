@@ -5,7 +5,7 @@ import { SITE } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Contact Shaheen Welfare Society — head office in Chak No. 15/SB, District Bhalwal, Sargodha.',
+  description: 'Contact Shaheen Welfare Society: head office in Chak No. 15/SB, District Bhalwal, Sargodha.',
 };
 
 export default function ContactPage() {
@@ -15,7 +15,7 @@ export default function ContactPage() {
         <div className="wrap">
           <Breadcrumbs current="Contact" />
           <h1>Contact us</h1>
-          <p>Write to us, visit the office, or call — we answer every message.</p>
+          <p>Write to us, visit the office, or call: we answer every message.</p>
         </div>
       </div>
 
@@ -54,7 +54,7 @@ export default function ContactPage() {
             <div className="sticky-note" style={{ marginTop: 20 }}>
               <h3>Office hours</h3>
               <p style={{ marginTop: 6 }}>
-                Monday – Saturday, 9:00 AM – 5:00 PM. Field visits by appointment — much of our work
+                Monday – Saturday, 9:00 AM – 5:00 PM. Field visits by appointment; much of our work
                 happens in the villages, not the office.
               </p>
             </div>

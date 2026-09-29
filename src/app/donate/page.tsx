@@ -6,13 +6,13 @@ import { SITE } from '@/lib/site';
 export const metadata: Metadata = {
   title: 'Donate',
   description:
-    'Donate to Shaheen Welfare Society — direct bank transfer to National Bank of Pakistan, or make a pledge online.',
+    'Donate to Shaheen Welfare Society: direct bank transfer to National Bank of Pakistan, or make a pledge online.',
 };
 
 const CAUSES = [
-  'Education — uniforms, books, bicycles',
-  'Healthcare — medical and eye camps',
-  'Disability support — wheelchairs and aids',
+  'Education: uniforms, books, bicycles',
+  'Healthcare: medical and eye camps',
+  'Disability support: wheelchairs and aids',
   'Ramadan & Eid packages',
   'Vocational training for women',
   'Wherever the need is greatest',
@@ -27,7 +27,7 @@ export default function DonatePage() {
           <h1>Donate</h1>
           <p>
             No middlemen, no overseas accounts. Your donation moves directly from the bank to the
-            field — and every rupee is documented.
+            field, and every rupee is documented.
           </p>
         </div>
       </div>
@@ -64,10 +64,10 @@ export default function DonatePage() {
             <div className="sticky-note" style={{ marginTop: 20 }}>
               <h3>What your money does</h3>
               <ul className="impact-list" style={{ marginTop: 8 }}>
-                <li>PKR 1,500 — a school uniform and bag for an orphaned girl</li>
-                <li>PKR 8,000 — a sewing machine for a widow’s home business</li>
-                <li>PKR 12,000 — one free medical camp day in a village</li>
-                <li>PKR 25,000 — a wheelchair for a person with disability</li>
+                <li>PKR 1,500: a school uniform and bag for an orphaned girl</li>
+                <li>PKR 8,000: a sewing machine for a widow’s home business</li>
+                <li>PKR 12,000: one free medical camp day in a village</li>
+                <li>PKR 25,000: a wheelchair for a person with disability</li>
               </ul>
               <p style={{ marginTop: 12, fontSize: '0.85rem', color: 'var(--ink-soft)' }}>
                 Indicative costs based on recent field activity; actual allocation follows need.
@@ -78,7 +78,7 @@ export default function DonatePage() {
           <div>
             <h2>Make a pledge</h2>
             <p className="form-note" style={{ margin: '8px 0 24px' }}>
-              Pledging is not an online payment — we will contact you to complete your gift.
+              Pledging is not an online payment; we will contact you to complete your gift.
             </p>
             <FormBlock
               endpoint="/api/donate"

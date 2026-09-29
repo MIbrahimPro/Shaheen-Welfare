@@ -34,7 +34,7 @@ export default function GalleryPage() {
           <Breadcrumbs current="Gallery" />
           <h1>Gallery</h1>
           <p>
-            Photographs from the organization profile — classrooms, camps, distributions and
+            Photographs from two decades of field work: classrooms, camps, distributions and
             ceremonies across District Sargodha.
           </p>
         </div>

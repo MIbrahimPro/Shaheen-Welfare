@@ -16,7 +16,7 @@ export default function ProjectsPage() {
           <Breadcrumbs current="Projects" />
           <h1>Projects implemented</h1>
           <p>
-            Forty projects since 2001 — from schools and clinics to election observation and flood
+            Forty projects since 2001, from schools and clinics to election observation and flood
             relief. Ongoing projects continue to serve the community today.
           </p>
         </div>

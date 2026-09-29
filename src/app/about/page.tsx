@@ -6,7 +6,7 @@ import { CORE_VALUES, OBJECTIVES, PARTNERS } from '@/lib/content';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Vision, mission, core values, objectives and history of Shaheen Welfare Society, Sargodha — a registered voluntary social welfare agency working since 2001.',
+    'Vision, mission, core values, objectives and history of Shaheen Welfare Society, Sargodha: a registered voluntary social welfare agency working since 2001.',
 };
 
 export default function AboutPage() {
@@ -29,14 +29,14 @@ export default function AboutPage() {
             <h2>Who we are</h2>
             <p style={{ marginTop: 14 }}>
               Shaheen Welfare Society is a community-driven, non-profit, non-political organization
-              based in Chak No. 15/SB, District Bhalwal, Sargodha. We exist for the community — not
+              based in Chak No. 15/SB, District Bhalwal, Sargodha. We exist for the community, not
               for ourselves. Our staff of 20, our 5 volunteers and our 2 consultants work across
               governance, health, education and environment with a strong focus on human rights and
               local governance.
             </p>
             <p style={{ marginTop: 14 }}>
               Over two decades we have collaborated with national and international organizations
-              including CIDA, UNDP, TVO and Aurat Foundation — using that expertise to strengthen the
+              including CIDA, UNDP, TVO and Aurat Foundation, using that expertise to strengthen the
               social sector for greater equity and inclusion.
             </p>
             <h2 style={{ marginTop: 32 }}>Vision</h2>
@@ -63,7 +63,7 @@ export default function AboutPage() {
             <div className="card" style={{ marginTop: 20 }}>
               <h3>Team</h3>
               <p>
-                20 staff members · 5 volunteers · 2 consultants — backed by community elders,
+                20 staff members · 5 volunteers · 2 consultants, backed by community elders,
                 councilors, elected representatives, academia and media.
               </p>
             </div>
