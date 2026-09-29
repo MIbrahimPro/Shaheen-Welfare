@@ -28,7 +28,7 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
-            <figure className="hero-figure">
+            <figure className="hero-figure" data-parallax="-0.05">
               <img
                 src={`${BASE}/gallery/pg-023-600.jpg`}
                 alt="Volunteers of Shaheen Welfare Society hand out Ramadan ration bags to village families"
@@ -85,7 +85,8 @@ export default function HomePage() {
                 See all 40 projects
               </Link>
             </p>
-          </div>            <figure className="figure">
+          </div>
+          <figure className="figure" data-parallax="0.06">
               <img
                 src={`${BASE}/gallery/pg-009-079.jpg`}
                 alt="A speaker addresses the gathering from the Shaheen Welfare Society podium"

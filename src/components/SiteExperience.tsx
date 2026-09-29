@@ -1,0 +1,137 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
+import Lenis from 'lenis';
+import { BASE } from '@/lib/site';
+
+/**
+ * Site-wide client experience:
+ *  - a loader (logo + progress bar) that slides up to reveal the site,
+ *  - Lenis smooth scrolling,
+ *  - gentle parallax on elements marked with data-parallax="<speed>".
+ *
+ * Everything respects prefers-reduced-motion. The loader slides away on
+ * every full page load but never on client-side route changes.
+ */
+export default function SiteExperience() {
+  const pathname = usePathname();
+  const [progress, setProgress] = useState(0);
+  const [done, setDone] = useState(false); // triggers the slide-up
+  const [gone, setGone] = useState(false); // unmounts the overlay
+
+  // Loader: ease the bar toward 85 while the page loads, then complete
+  // and slide away once the browser has painted the content beneath.
+  useEffect(() => {
+    if (gone) return;
+    const reduce =
+      typeof window !== 'undefined' &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce) {
+      setDone(true);
+      setGone(true);
+      return;
+    }
+
+    document.body.style.overflow = 'hidden';
+
+    let raf = 0;
+    let value = 0;
+    const started = performance.now();
+
+    const tick = () => {
+      value += (85 - value) * 0.08; // never reaches 100 on its own
+      setProgress(Math.min(100, Math.round(value)));
+      raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+
+    let cancelled = false;
+    const release = () => {
+      if (cancelled) return;
+      cancelled = true;
+      cancelAnimationFrame(raf);
+      // minimum display time so the logo is actually seen
+      const wait = Math.max(0, 900 - (performance.now() - started));
+      setTimeout(() => {
+        setProgress(100);
+        setTimeout(() => setDone(true), 250);
+        setTimeout(() => {
+          setGone(true);
+          document.body.style.overflow = '';
+        }, 1050); // 250ms fill + 700ms slide + margin
+      }, wait);
+    };
+
+    if (document.readyState === 'complete') {
+      release();
+    } else {
+      window.addEventListener('load', release, { once: true });
+    }
+    // hard cap: never trap the user behind the loader
+    const cap = setTimeout(release, 4000);
+    return () => {
+      cancelled = true;
+      cancelAnimationFrame(raf);
+      clearTimeout(cap);
+      window.removeEventListener('load', release);
+    };
+  }, [gone]);
+
+  // Lenis smooth scrolling + parallax, once the loader is out of the way.
+  useEffect(() => {
+    if (!done || gone) return;
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    const lenis = new Lenis({
+      duration: 1.05,
+      easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      smoothWheel: true,
+      // keep native scrolling on touch devices; Lenis smooths wheels only
+      syncTouch: false,
+    });
+
+    let raf = 0;
+    const loop = (time: number) => {
+      lenis.raf(time);
+      raf = requestAnimationFrame(loop);
+    };
+    if (!reduce) raf = requestAnimationFrame(loop);
+
+    // parallax: data-parallax holds a speed like 0.12 (drifts down) or
+    // -0.15 (drifts up) relative to scroll position
+    const els: HTMLElement[] = [];
+    if (!reduce) {
+      document.querySelectorAll<HTMLElement>('[data-parallax]').forEach((el) => {
+        els.push(el);
+        el.classList.add('parallax');
+      });
+    }
+    const onScroll = () => {
+      const y = window.scrollY;
+      for (const el of els) {
+        const speed = Number(el.dataset.parallax || 0);
+        el.style.transform = `translate3d(0, ${(y * speed).toFixed(1)}px, 0)`;
+      }
+    };
+    lenis.on('scroll', onScroll);
+    onScroll();
+
+    return () => {
+      cancelAnimationFrame(raf);
+      lenis.destroy();
+    };
+  }, [done, gone, pathname]);
+
+  if (gone) return null;
+
+  return (
+    <div className={`loader${done ? ' is-done' : ''}`} aria-hidden={done} role="status" aria-label="Loading">
+      <img src={`${BASE}/logo.jpeg`} alt="" />
+      <div className="loader-bar">
+        <span style={{ width: `${progress}%` }} />
+      </div>
+      <div className="loader-label">Shaheen Welfare Society</div>
+    </div>
+  );
+}
