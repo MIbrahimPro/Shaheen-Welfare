@@ -1,552 +1,772 @@
 [
   {
     "src": "/gallery/pg-007-002.jpg",
-    "caption": "Shaheen Cadet School — photo albums from the early years",
-    "page": 7
+    "caption": "Photo albums from the Shaheen Cadet School archives",
+    "page": 7,
+    "width": 802,
+    "height": 574
   },
   {
     "src": "/gallery/pg-007-003.jpg",
-    "caption": "Shaheen Cadet School — photo albums from the early years",
-    "page": 7
+    "caption": "Early school registers and student records",
+    "page": 7,
+    "width": 599,
+    "height": 811
   },
   {
     "src": "/gallery/pg-007-004.jpg",
-    "caption": "Shaheen Cadet School — photo albums from the early years",
-    "page": 7
+    "caption": "Prize ceremony at the Shaheen Cadet School",
+    "page": 7,
+    "width": 821,
+    "height": 558
   },
   {
     "src": "/gallery/pg-007-005.jpg",
-    "caption": "Shaheen Cadet School — photo albums from the early years",
-    "page": 7
+    "caption": "Students honored at the annual school function",
+    "page": 7,
+    "width": 796,
+    "height": 579
   },
   {
     "src": "/gallery/pg-008-032.jpg",
-    "caption": "School events, classrooms and prize ceremonies",
-    "page": 8
+    "caption": "Classroom moments at the cadet school",
+    "page": 8,
+    "width": 731,
+    "height": 737
   },
   {
     "src": "/gallery/pg-008-033.jpg",
-    "caption": "School events, classrooms and prize ceremonies",
-    "page": 8
+    "caption": "School assembly in the early years",
+    "page": 8,
+    "width": 1148,
+    "height": 1002
   },
   {
     "src": "/gallery/pg-008-034.jpg",
-    "caption": "School events, classrooms and prize ceremonies",
-    "page": 8
+    "caption": "Students with their teachers at the cadet school",
+    "page": 8,
+    "width": 757,
+    "height": 629
   },
   {
     "src": "/gallery/pg-008-035.jpg",
-    "caption": "School events, classrooms and prize ceremonies",
-    "page": 8
+    "caption": "Prize distribution at the annual function",
+    "page": 8,
+    "width": 779,
+    "height": 732
   },
   {
     "src": "/gallery/pg-009-074.jpg",
-    "caption": "Wheelchairs, seminars and distribution ceremonies",
-    "page": 9
+    "caption": "Community members at a society seminar",
+    "page": 9,
+    "width": 913,
+    "height": 684
   },
   {
     "src": "/gallery/pg-009-075.jpg",
-    "caption": "Wheelchairs, seminars and distribution ceremonies",
-    "page": 9
+    "caption": "Office bearers address a community seminar",
+    "page": 9,
+    "width": 608,
+    "height": 456
   },
   {
     "src": "/gallery/pg-009-076.jpg",
-    "caption": "Wheelchairs, seminars and distribution ceremonies",
-    "page": 9
+    "caption": "Guests of honor at a society event",
+    "page": 9,
+    "width": 327,
+    "height": 660
   },
   {
     "src": "/gallery/pg-009-077.jpg",
-    "caption": "Wheelchairs, seminars and distribution ceremonies",
-    "page": 9
+    "caption": "Vocational training display at a community exhibition",
+    "page": 9,
+    "width": 781,
+    "height": 585
   },
   {
     "src": "/gallery/pg-009-078.jpg",
-    "caption": "Wheelchairs, seminars and distribution ceremonies",
-    "page": 9
+    "caption": "Visiting the society stall at a local exhibition",
+    "page": 9,
+    "width": 490,
+    "height": 626
   },
   {
     "src": "/gallery/pg-009-079.jpg",
-    "caption": "Wheelchairs, seminars and distribution ceremonies",
-    "page": 9
+    "caption": "Addressing the gathering from the society podium",
+    "page": 9,
+    "width": 643,
+    "height": 836
   },
   {
     "src": "/gallery/pg-009-080.jpg",
-    "caption": "Wheelchairs, seminars and distribution ceremonies",
-    "page": 9
+    "caption": "Wheelchair handed over at a distribution ceremony",
+    "page": 9,
+    "width": 705,
+    "height": 543
   },
   {
     "src": "/gallery/pg-009-081.jpg",
-    "caption": "Wheelchairs, seminars and distribution ceremonies",
-    "page": 9
+    "caption": "Mobility aids distributed to persons with disabilities",
+    "page": 9,
+    "width": 410,
+    "height": 525
   },
   {
     "src": "/gallery/pg-010-116.jpg",
-    "caption": "Program activities and community seminars",
-    "page": 10
+    "caption": "Volunteers pack rations for needy families",
+    "page": 10,
+    "width": 801,
+    "height": 575
   },
   {
     "src": "/gallery/pg-010-117.jpg",
-    "caption": "Program activities and community seminars",
-    "page": 10
+    "caption": "Relief goods prepared for distribution",
+    "page": 10,
+    "width": 758,
+    "height": 569
   },
   {
     "src": "/gallery/pg-010-118.jpg",
-    "caption": "Program activities and community seminars",
-    "page": 10
+    "caption": "Wheelchairs staged for handover at the society office",
+    "page": 10,
+    "width": 724,
+    "height": 543
   },
   {
     "src": "/gallery/pg-010-119.jpg",
-    "caption": "Program activities and community seminars",
-    "page": 10
+    "caption": "A wheelchair recipient with his new chair",
+    "page": 10,
+    "width": 172,
+    "height": 249
   },
   {
     "src": "/gallery/pg-010-120.jpg",
-    "caption": "Program activities and community seminars",
-    "page": 10
+    "caption": "Meeting with community elders",
+    "page": 10,
+    "width": 461,
+    "height": 615
   },
   {
     "src": "/gallery/pg-010-121.jpg",
-    "caption": "Program activities and community seminars",
-    "page": 10
+    "caption": "Coordination meeting at the society office",
+    "page": 10,
+    "width": 1032,
+    "height": 581
   },
   {
     "src": "/gallery/pg-010-122.jpg",
-    "caption": "Program activities and community seminars",
-    "page": 10
+    "caption": "Society members plan the next distribution",
+    "page": 10,
+    "width": 548,
+    "height": 432
   },
   {
     "src": "/gallery/pg-011-159.jpg",
-    "caption": "Seminars and community programs",
-    "page": 11
+    "caption": "Medical camp registration desk",
+    "page": 11,
+    "width": 1026,
+    "height": 769
   },
   {
     "src": "/gallery/pg-011-160.jpg",
-    "caption": "Seminars and community programs",
-    "page": 11
+    "caption": "Families wait for checkup at the free medical camp",
+    "page": 11,
+    "width": 692,
+    "height": 519
   },
   {
     "src": "/gallery/pg-011-161.jpg",
-    "caption": "Seminars and community programs",
-    "page": 11
+    "caption": "Doctors examine patients at the free camp",
+    "page": 11,
+    "width": 622,
+    "height": 466
   },
   {
     "src": "/gallery/pg-011-162.jpg",
-    "caption": "Seminars and community programs",
-    "page": 11
+    "caption": "A doctor examines a young patient",
+    "page": 11,
+    "width": 624,
+    "height": 468
   },
   {
     "src": "/gallery/pg-011-163.jpg",
-    "caption": "Seminars and community programs",
-    "page": 11
+    "caption": "Medicines dispensed free of cost at the camp",
+    "page": 11,
+    "width": 692,
+    "height": 913
   },
   {
     "src": "/gallery/pg-011-164.jpg",
-    "caption": "Seminars and community programs",
-    "page": 11
+    "caption": "Camp organizers with the medical team",
+    "page": 11,
+    "width": 320,
+    "height": 661
   },
   {
     "src": "/gallery/pg-011-165.jpg",
-    "caption": "Seminars and community programs",
-    "page": 11
+    "caption": "Patients walk home after the free eye camp",
+    "page": 11,
+    "width": 489,
+    "height": 359
   },
   {
     "src": "/gallery/pg-012-198.jpg",
-    "caption": "Uniform distribution for orphaned and needy students",
-    "page": 12
+    "caption": "Session on women's legal rights",
+    "page": 12,
+    "width": 805,
+    "height": 603
   },
   {
     "src": "/gallery/pg-012-199.jpg",
-    "caption": "Uniform distribution for orphaned and needy students",
-    "page": 12
+    "caption": "Participants at a legal awareness session",
+    "page": 12,
+    "width": 491,
+    "height": 369
   },
   {
     "src": "/gallery/pg-012-200.jpg",
-    "caption": "Uniform distribution for orphaned and needy students",
-    "page": 12
+    "caption": "Legal aid cell in session with the community",
+    "page": 12,
+    "width": 797,
+    "height": 733
   },
   {
     "src": "/gallery/pg-012-201.jpg",
-    "caption": "Uniform distribution for orphaned and needy students",
-    "page": 12
+    "caption": "Community members gather under the neem tree for a jirga",
+    "page": 12,
+    "width": 1040,
+    "height": 488
   },
   {
     "src": "/gallery/pg-012-202.jpg",
-    "caption": "Uniform distribution for orphaned and needy students",
-    "page": 12
+    "caption": "A large audience at an outdoor awareness session",
+    "page": 12,
+    "width": 468,
+    "height": 219
   },
   {
     "src": "/gallery/pg-012-203.jpg",
-    "caption": "Uniform distribution for orphaned and needy students",
-    "page": 12
+    "caption": "Participants sign up at the legal literacy workshop",
+    "page": 12,
+    "width": 745,
+    "height": 559
   },
   {
     "src": "/gallery/pg-012-204.jpg",
-    "caption": "Uniform distribution for orphaned and needy students",
-    "page": 12
+    "caption": "Discussion circle at the community session",
+    "page": 12,
+    "width": 627,
+    "height": 470
   },
   {
     "src": "/gallery/pg-013-237.jpg",
-    "caption": "Eid gifts and packages for orphans and widows",
-    "page": 13
+    "caption": "Women attend a health awareness session",
+    "page": 13,
+    "width": 542,
+    "height": 406
   },
   {
     "src": "/gallery/pg-013-238.jpg",
-    "caption": "Eid gifts and packages for orphans and widows",
-    "page": 13
+    "caption": "Door-to-door outreach in the village",
+    "page": 13,
+    "width": 539,
+    "height": 404
   },
   {
     "src": "/gallery/pg-013-239.jpg",
-    "caption": "Eid gifts and packages for orphans and widows",
-    "page": 13
+    "caption": "Awareness session with village women",
+    "page": 13,
+    "width": 875,
+    "height": 638
   },
   {
     "src": "/gallery/pg-013-240.jpg",
-    "caption": "Eid gifts and packages for orphans and widows",
-    "page": 13
+    "caption": "Registration desk at the women's health camp",
+    "page": 13,
+    "width": 731,
+    "height": 784
   },
   {
     "src": "/gallery/pg-013-241.jpg",
-    "caption": "Eid gifts and packages for orphans and widows",
-    "page": 13
+    "caption": "A social mobilizer records a household survey",
+    "page": 13,
+    "width": 1280,
+    "height": 1280
   },
   {
     "src": "/gallery/pg-013-242.jpg",
-    "caption": "Eid gifts and packages for orphans and widows",
-    "page": 13
+    "caption": "Mothers bring children to the vaccination drive",
+    "page": 13,
+    "width": 633,
+    "height": 474
   },
   {
     "src": "/gallery/pg-013-243.jpg",
-    "caption": "Eid gifts and packages for orphans and widows",
-    "page": 13
+    "caption": "Village women gather for a community meeting",
+    "page": 13,
+    "width": 616,
+    "height": 446
   },
   {
     "src": "/gallery/pg-013-244.jpg",
-    "caption": "Eid gifts and packages for orphans and widows",
-    "page": 13
+    "caption": "Health workers brief the community on immunization",
+    "page": 13,
+    "width": 528,
+    "height": 360
   },
   {
     "src": "/gallery/pg-014-275.jpg",
-    "caption": "Voter education for a vibrant tomorrow",
-    "page": 14
+    "caption": "Students of the Rise Education Project in class",
+    "page": 14,
+    "width": 1036,
+    "height": 768
   },
   {
     "src": "/gallery/pg-014-276.jpg",
-    "caption": "Voter education for a vibrant tomorrow",
-    "page": 14
+    "caption": "Guests of honor at the society's annual seminar",
+    "page": 14,
+    "width": 758,
+    "height": 568
   },
   {
     "src": "/gallery/pg-014-277.jpg",
-    "caption": "Voter education for a vibrant tomorrow",
-    "page": 14
+    "caption": "A society representative addresses the seminar",
+    "page": 14,
+    "width": 377,
+    "height": 503
   },
   {
     "src": "/gallery/pg-014-278.jpg",
-    "caption": "Voter education for a vibrant tomorrow",
-    "page": 14
+    "caption": "Office bearers host partners at the annual event",
+    "page": 14,
+    "width": 622,
+    "height": 829
   },
   {
     "src": "/gallery/pg-014-279.jpg",
-    "caption": "Voter education for a vibrant tomorrow",
-    "page": 14
+    "caption": "Guests seated at the annual community seminar",
+    "page": 14,
+    "width": 734,
+    "height": 550
   },
   {
     "src": "/gallery/pg-014-280.jpg",
-    "caption": "Voter education for a vibrant tomorrow",
-    "page": 14
+    "caption": "Scholarships and prizes handed to students",
+    "page": 14,
+    "width": 612,
+    "height": 459
   },
   {
     "src": "/gallery/pg-014-281.jpg",
-    "caption": "Voter education for a vibrant tomorrow",
-    "page": 14
+    "caption": "Teachers honored at the annual function",
+    "page": 14,
+    "width": 602,
+    "height": 509
   },
   {
     "src": "/gallery/pg-015-312.jpg",
-    "caption": "Community sessions and medical activities",
-    "page": 15
+    "caption": "The society's banner welcomes seminar guests",
+    "page": 15,
+    "width": 1600,
+    "height": 592
   },
   {
     "src": "/gallery/pg-015-313.jpg",
-    "caption": "Community sessions and medical activities",
-    "page": 15
+    "caption": "Society members receive guests at the seminar",
+    "page": 15,
+    "width": 1524,
+    "height": 763
   },
   {
     "src": "/gallery/pg-016-348.jpg",
-    "caption": "Awareness seminars with invited guests",
-    "page": 16
+    "caption": "Office bearers and elders at the head office seminar",
+    "page": 16,
+    "width": 818,
+    "height": 584
   },
   {
     "src": "/gallery/pg-016-349.jpg",
-    "caption": "Awareness seminars with invited guests",
-    "page": 16
+    "caption": "A guest is presented a flower at the seminar",
+    "page": 16,
+    "width": 776,
+    "height": 566
   },
   {
     "src": "/gallery/pg-016-350.jpg",
-    "caption": "Awareness seminars with invited guests",
-    "page": 16
+    "caption": "Speakers at the awareness seminar",
+    "page": 16,
+    "width": 780,
+    "height": 585
   },
   {
     "src": "/gallery/pg-016-351.jpg",
-    "caption": "Awareness seminars with invited guests",
-    "page": 16
+    "caption": "Partners join the society's awareness seminar",
+    "page": 16,
+    "width": 633,
+    "height": 475
   },
   {
     "src": "/gallery/pg-016-352.jpg",
-    "caption": "Awareness seminars with invited guests",
-    "page": 16
+    "caption": "The society's founder greets seminar guests",
+    "page": 16,
+    "width": 660,
+    "height": 495
   },
   {
     "src": "/gallery/pg-016-353.jpg",
-    "caption": "Awareness seminars with invited guests",
-    "page": 16
+    "caption": "Elders bless the gathering at the annual event",
+    "page": 16,
+    "width": 532,
+    "height": 478
   },
   {
     "src": "/gallery/pg-017-384.jpg",
-    "caption": "Field activities and community camps",
-    "page": 17
+    "caption": "Relief goods loaded for village distribution",
+    "page": 17,
+    "width": 635,
+    "height": 812
   },
   {
     "src": "/gallery/pg-017-385.jpg",
-    "caption": "Field activities and community camps",
-    "page": 17
+    "caption": "Volunteers carry rations house to house",
+    "page": 17,
+    "width": 1280,
+    "height": 1075
   },
   {
     "src": "/gallery/pg-017-386.jpg",
-    "caption": "Field activities and community camps",
-    "page": 17
+    "caption": "A wheelchair recipient at the distribution ceremony",
+    "page": 17,
+    "width": 583,
+    "height": 777
   },
   {
     "src": "/gallery/pg-017-387.jpg",
-    "caption": "Field activities and community camps",
-    "page": 17
+    "caption": "Wheelchairs lined up before handover",
+    "page": 17,
+    "width": 770,
+    "height": 554
   },
   {
     "src": "/gallery/pg-017-388.jpg",
-    "caption": "Field activities and community camps",
-    "page": 17
+    "caption": "Fresh vegetables packed at the food distribution",
+    "page": 17,
+    "width": 379,
+    "height": 625
   },
   {
     "src": "/gallery/pg-018-423.jpg",
-    "caption": "Field activities and community camps",
-    "page": 18
+    "caption": "Elders gathered at the village gate meeting",
+    "page": 18,
+    "width": 882,
+    "height": 661
   },
   {
     "src": "/gallery/pg-018-424.jpg",
-    "caption": "Field activities and community camps",
-    "page": 18
+    "caption": "Community notables at a village meeting",
+    "page": 18,
+    "width": 749,
+    "height": 590
   },
   {
     "src": "/gallery/pg-018-425.jpg",
-    "caption": "Field activities and community camps",
-    "page": 18
+    "caption": "The society team pauses during a field visit",
+    "page": 18,
+    "width": 708,
+    "height": 680
   },
   {
     "src": "/gallery/pg-018-426.jpg",
-    "caption": "Field activities and community camps",
-    "page": 18
+    "caption": "Tree plantation drive with community volunteers",
+    "page": 18,
+    "width": 675,
+    "height": 864
   },
   {
     "src": "/gallery/pg-018-427.jpg",
-    "caption": "Field activities and community camps",
-    "page": 18
+    "caption": "A sapling handed over during the plantation drive",
+    "page": 18,
+    "width": 384,
+    "height": 491
   },
   {
     "src": "/gallery/pg-018-428.jpg",
-    "caption": "Field activities and community camps",
-    "page": 18
+    "caption": "Villagers gather for the cleanliness campaign",
+    "page": 18,
+    "width": 281,
+    "height": 615
   },
   {
     "src": "/gallery/pg-019-461.jpg",
-    "caption": "Field activities and community camps",
-    "page": 19
+    "caption": "Flood relief: families receive food packages",
+    "page": 19,
+    "width": 1102,
+    "height": 560
   },
   {
     "src": "/gallery/pg-019-462.jpg",
-    "caption": "Field activities and community camps",
-    "page": 19
+    "caption": "Ration bags distributed during the 2010 floods",
+    "page": 19,
+    "width": 1228,
+    "height": 561
   },
   {
     "src": "/gallery/pg-019-463.jpg",
-    "caption": "Field activities and community camps",
-    "page": 19
+    "caption": "Relief camp supplies for flood-affected families",
+    "page": 19,
+    "width": 565,
+    "height": 834
   },
   {
     "src": "/gallery/pg-019-464.jpg",
-    "caption": "Field activities and community camps",
-    "page": 19
+    "caption": "Volunteers sort donations at the relief camp",
+    "page": 19,
+    "width": 601,
+    "height": 769
   },
   {
     "src": "/gallery/pg-019-465.jpg",
-    "caption": "Field activities and community camps",
-    "page": 19
+    "caption": "A flood survivor receives shelter materials",
+    "page": 19,
+    "width": 1026,
+    "height": 719
   },
   {
     "src": "/gallery/pg-020-496.jpg",
-    "caption": "Field activities and community camps",
-    "page": 20
+    "caption": "Election observation duty with FAFEN (2024)",
+    "page": 20,
+    "width": 1523,
+    "height": 763
   },
   {
     "src": "/gallery/pg-020-497.jpg",
-    "caption": "Field activities and community camps",
-    "page": 20
+    "caption": "Observers brief before polling day",
+    "page": 20,
+    "width": 709,
+    "height": 946
   },
   {
     "src": "/gallery/pg-020-498.jpg",
-    "caption": "Field activities and community camps",
-    "page": 20
+    "caption": "Youth dialogue on democratic participation",
+    "page": 20,
+    "width": 895,
+    "height": 960
   },
   {
     "src": "/gallery/pg-021-529.jpg",
-    "caption": "Partnership with Bedari — Rise Education Project",
-    "page": 21
+    "caption": "Flood waters cut through a village road",
+    "page": 21,
+    "width": 805,
+    "height": 585
   },
   {
     "src": "/gallery/pg-021-530.jpg",
-    "caption": "Partnership with Bedari — Rise Education Project",
-    "page": 21
+    "caption": "The society team wades through flood water to reach families",
+    "page": 21,
+    "width": 733,
+    "height": 528
   },
   {
     "src": "/gallery/pg-021-531.jpg",
-    "caption": "Partnership with Bedari — Rise Education Project",
-    "page": 21
+    "caption": "Boat rescue during the flood operations",
+    "page": 21,
+    "width": 569,
+    "height": 759
   },
   {
     "src": "/gallery/pg-021-532.jpg",
-    "caption": "Partnership with Bedari — Rise Education Project",
-    "page": 21
+    "caption": "A crowd gathers on high ground during the floods",
+    "page": 21,
+    "width": 1452,
+    "height": 1060
   },
   {
     "src": "/gallery/pg-021-533.jpg",
-    "caption": "Partnership with Bedari — Rise Education Project",
-    "page": 21
+    "caption": "Relief boat carries supplies to stranded families",
+    "page": 21,
+    "width": 574,
+    "height": 765
   },
   {
     "src": "/gallery/pg-021-534.jpg",
-    "caption": "Partnership with Bedari — Rise Education Project",
-    "page": 21
+    "caption": "An elder receives food aid during the flood relief",
+    "page": 21,
+    "width": 630,
+    "height": 840
   },
   {
     "src": "/gallery/pg-021-535.jpg",
-    "caption": "Partnership with Bedari — Rise Education Project",
-    "page": 21
+    "caption": "Volunteers carry water to the relief camp",
+    "page": 21,
+    "width": 496,
+    "height": 657
   },
   {
     "src": "/gallery/pg-022-566.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 22
+    "caption": "Sewing machines handed to women at the vocational center",
+    "page": 22,
+    "width": 717,
+    "height": 957
   },
   {
     "src": "/gallery/pg-022-567.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 22
+    "caption": "A graduate of the vocational program with her machine",
+    "page": 22,
+    "width": 1200,
+    "height": 1600
   },
   {
     "src": "/gallery/pg-022-568.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 22
+    "caption": "Trainees display work at the vocational center",
+    "page": 22,
+    "width": 739,
+    "height": 986
   },
   {
     "src": "/gallery/pg-022-569.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 22
+    "caption": "Trade kits distributed to vocational graduates",
+    "page": 22,
+    "width": 779,
+    "height": 932
   },
   {
     "src": "/gallery/pg-023-600.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 23
+    "caption": "Ramadan ration distribution in a village courtyard",
+    "page": 23,
+    "width": 804,
+    "height": 603
   },
   {
     "src": "/gallery/pg-023-601.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 23
+    "caption": "Ration bags packed and ready for Ramadan",
+    "page": 23,
+    "width": 844,
+    "height": 633
   },
   {
     "src": "/gallery/pg-023-602.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 23
+    "caption": "Volunteers hand rations to a widow at the gate",
+    "page": 23,
+    "width": 832,
+    "height": 624
   },
   {
     "src": "/gallery/pg-023-603.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 23
+    "caption": "Families receive Ramadan packages before Eid",
+    "page": 23,
+    "width": 633,
+    "height": 844
   },
   {
     "src": "/gallery/pg-023-604.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 23
+    "caption": "Eid gifts for children at the orphan distribution",
+    "page": 23,
+    "width": 719,
+    "height": 959
   },
   {
     "src": "/gallery/pg-023-605.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 23
+    "caption": "Eid packages stacked for the orphan families",
+    "page": 23,
+    "width": 627,
+    "height": 551
   },
   {
     "src": "/gallery/pg-023-606.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 23
+    "caption": "Children receive new clothes for Eid",
+    "page": 23,
+    "width": 418,
+    "height": 558
   },
   {
     "src": "/gallery/pg-024-637.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 24
+    "caption": "School girls enroll at the Rise Education Project desk",
+    "page": 24,
+    "width": 824,
+    "height": 618
   },
   {
     "src": "/gallery/pg-024-638.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 24
+    "caption": "The Rise Education Project enrollment team",
+    "page": 24,
+    "width": 1040,
+    "height": 780
   },
   {
     "src": "/gallery/pg-024-639.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 24
+    "caption": "Teachers of the Rise Education Project (2025 intake)",
+    "page": 24,
+    "width": 835,
+    "height": 626
   },
   {
     "src": "/gallery/pg-024-640.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 24
+    "caption": "Parents meeting of the Rise Education Project",
+    "page": 24,
+    "width": 1040,
+    "height": 780
   },
   {
     "src": "/gallery/pg-024-641.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 24
+    "caption": "A community elder signs the enrollment register",
+    "page": 24,
+    "width": 727,
+    "height": 545
   },
   {
     "src": "/gallery/pg-024-642.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 24
+    "caption": "Mothers enroll daughters at the community school",
+    "page": 24,
+    "width": 999,
+    "height": 480
   },
   {
     "src": "/gallery/pg-025-677.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 25
+    "caption": "Group photo after the youth dialogue session",
+    "page": 25,
+    "width": 989,
+    "height": 742
   },
   {
     "src": "/gallery/pg-025-678.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 25
+    "caption": "A young volunteer addresses the youth dialogue",
+    "page": 25,
+    "width": 626,
+    "height": 800
   },
   {
     "src": "/gallery/pg-025-679.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 25
+    "caption": "Participants at the voter awareness walk",
+    "page": 25,
+    "width": 1093,
+    "height": 619
   },
   {
     "src": "/gallery/pg-025-680.jpg",
-    "caption": "Awareness sessions and youth dialogues",
-    "page": 25
+    "caption": "Youth volunteers register new voters",
+    "page": 25,
+    "width": 770,
+    "height": 567
   },
   {
     "src": "/gallery/pg-026-713.jpg",
-    "caption": "Public message and memorial events",
-    "page": 26
+    "caption": "Memorial reference for the society's founder",
+    "page": 26,
+    "width": 620,
+    "height": 865
   },
   {
     "src": "/gallery/pg-026-714.jpg",
-    "caption": "Public message and memorial events",
-    "page": 26
+    "caption": "The society's public message banner",
+    "page": 26,
+    "width": 976,
+    "height": 531
   },
   {
     "src": "/gallery/pg-026-715.jpg",
-    "caption": "Public message and memorial events",
-    "page": 26
+    "caption": "Election observation at a polling station (2024)",
+    "page": 26,
+    "width": 282,
+    "height": 201
   }
 ]
