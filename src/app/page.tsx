@@ -12,8 +12,8 @@ export default function HomePage() {
               <h1>Twenty-five years of standing with the marginalized.</h1>
               <p className="lede">
                 Shaheen Welfare Society is a registered voluntary social welfare agency in District
-                Sargodha, Punjab. Since 2001 we have worked village by village — in education,
-                healthcare, disability support, local governance and women’s empowerment — with one
+                Sargodha, Punjab. Since 2001 we have worked village by village, in education,
+                healthcare, disability support, local governance and women’s empowerment, with one
                 rule above all: the community leads, we serve.
               </p>
               <div className="hero-actions">
@@ -30,28 +30,17 @@ export default function HomePage() {
             </div>
             <figure className="hero-figure">
               <img
-                src={`${BASE}/gallery/pg-016-348.jpg`}
-                alt="A Shaheen Welfare Society seminar with invited guests"
-                width={900}
-                height={600}
+                src={`${BASE}/gallery/pg-023-600.jpg`}
+                alt="Volunteers of Shaheen Welfare Society hand out Ramadan ration bags to village families"
+                width={804}
+                height={603}
               />
-              <figcaption>Community seminar hosted by the society — guests, elders and office bearers.</figcaption>
+              <figcaption>Ramadan ration distribution in a village courtyard, District Sargodha.</figcaption>
             </figure>
           </div>
-          <div className="hero-stats">
-            <div>
-              <strong>40+</strong>
-              <span>Projects delivered</span>
-            </div>
-            <div>
-              <strong>25 yrs</strong>
-              <span>Of grassroots work</span>
-            </div>
-            <div>
-              <strong>60</strong>
-              <span>Non-formal schools (2005)</span>
-            </div>
-          </div>
+          <p className="hero-line">
+            40+ projects · 25 years · 60 non-formal schools (2005) · every rupee accounted for.
+          </p>
         </div>
       </section>
 
@@ -96,16 +85,15 @@ export default function HomePage() {
                 See all 40 projects
               </Link>
             </p>
-          </div>
-          <figure className="figure">
-            <img
-              src={`${BASE}/gallery/pg-009-075.jpg`}
-              alt="Speaker at the Shaheen Welfare Society podium during a community seminar"
-              width={900}
-              height={600}
-            />
-            <figcaption>A society seminar — evidence in hand, citizens in front.</figcaption>
-          </figure>
+          </div>            <figure className="figure">
+              <img
+                src={`${BASE}/gallery/pg-009-079.jpg`}
+                alt="A speaker addresses the gathering from the Shaheen Welfare Society podium"
+                width={643}
+                height={836}
+              />
+              <figcaption>Addressing a community seminar: evidence in hand, citizens in front.</figcaption>
+            </figure>
         </div>
       </section>
 
@@ -114,17 +102,15 @@ export default function HomePage() {
           <div className="section-head">
             <h2>Trusted by institutions</h2>
             <p>
-              Our work has been carried out alongside national and international partners — but every
+              Our work has been carried out alongside national and international partners, but every
               rupee and every decision stays accountable to the communities we serve.
             </p>
           </div>
-          <div className="grid grid--4">
+          <ul className="partner-line">
             {PARTNERS.slice(0, 8).map((p) => (
-              <div className="card card--plain" key={p}>
-                <p style={{ fontWeight: 600, color: 'var(--ink)' }}>{p}</p>
-              </div>
+              <li key={p}>{p}</li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 
@@ -133,7 +119,7 @@ export default function HomePage() {
           <div style={{ maxWidth: 620 }}>
             <h2>Every rupee stays in the village.</h2>
             <p style={{ marginTop: 10 }}>
-              Your donation funds school uniforms, wheelchairs, medical camps and Ramadan packages —
+              Your donation funds school uniforms, wheelchairs, medical camps and Ramadan packages,
               audited, documented and delivered by our own staff and volunteers.
             </p>
           </div>
