@@ -23,7 +23,7 @@ export default function HomePage() {
                 <Link href="/volunteer" className="btn">
                   Volunteer with us
                 </Link>
-                <Link href="/about" className="btn btn--ghost" style={{ color: '#fff', borderColor: '#fff' }}>
+                <Link href="/about" className="btn btn--ghost" style={{ color: 'var(--white)', borderColor: 'var(--white)' }}>
                   Our story
                 </Link>
               </div>

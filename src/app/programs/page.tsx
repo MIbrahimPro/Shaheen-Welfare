@@ -26,8 +26,7 @@ export default function ProgramsPage() {
             <div key={p.slug} id={p.slug} style={{ marginBottom: 56 }}>
               <div className={`grid grid--2${idx % 2 === 1 ? '' : ''}`} style={{ alignItems: 'start' }}>
                 <div>
-                  <span className="tag">Program {idx + 1}</span>
-                  <h2 style={{ marginTop: 12 }}>{p.title}</h2>
+                  <h2>{p.title}</h2>
                   <p style={{ marginTop: 10 }}>{p.intro}</p>
                   <p style={{ marginTop: 18 }}>
                     <Link href="/volunteer" className="btn btn--sm">
