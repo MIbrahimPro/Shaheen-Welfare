@@ -13,12 +13,60 @@ import { BASE } from '@/lib/site';
  *
  * Everything respects prefers-reduced-motion. The loader slides away on
  * every full page load but never on client-side route changes.
+ *
+ * Lenis is created once per route and only paused while the loader is up,
+ * so its lifetime does not depend on loader state transitions.
  */
 export default function SiteExperience() {
   const pathname = usePathname();
   const [progress, setProgress] = useState(0);
   const [done, setDone] = useState(false); // triggers the slide-up
   const [gone, setGone] = useState(false); // unmounts the overlay
+
+  // Lenis smooth scrolling + parallax: once per route, paused during load.
+  useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const lenis = new Lenis({
+      duration: 1.05,
+      easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      smoothWheel: true,
+      // keep native scrolling on touch devices; Lenis smooths wheels only
+      syncTouch: false,
+    });
+    (window as unknown as { __lenis?: Lenis }).__lenis = lenis;
+    lenis.stop(); // hold scrolling while the loader overlay is up
+
+    let raf = requestAnimationFrame(function loop(time: number) {
+      lenis.raf(time);
+      raf = requestAnimationFrame(loop);
+    });
+
+    // parallax: data-parallax holds a speed like 0.12 (drifts down) or
+    // -0.15 (drifts up) relative to scroll position
+    const els = Array.from(document.querySelectorAll<HTMLElement>('[data-parallax]'));
+    els.forEach((el) => el.classList.add('parallax'));
+    const onScroll = () => {
+      const y = window.scrollY;
+      for (const el of els) {
+        const speed = Number(el.dataset.parallax || 0);
+        el.style.transform = `translate3d(0, ${(y * speed).toFixed(1)}px, 0)`;
+      }
+    };
+    lenis.on('scroll', onScroll);
+    onScroll();
+
+    return () => {
+      cancelAnimationFrame(raf);
+      lenis.destroy();
+      (window as unknown as { __lenis?: Lenis }).__lenis = undefined;
+    };
+  }, [pathname]);
+
+  // Resume smooth scrolling when the loader starts sliding away.
+  useEffect(() => {
+    if (done) (window as unknown as { __lenis?: Lenis }).__lenis?.start();
+  }, [done]);
 
   // Loader: ease the bar toward 85 while the page loads, then complete
   // and slide away once the browser has painted the content beneath.
@@ -77,51 +125,6 @@ export default function SiteExperience() {
       window.removeEventListener('load', release);
     };
   }, [gone]);
-
-  // Lenis smooth scrolling + parallax, once the loader is out of the way.
-  useEffect(() => {
-    if (!done || gone) return;
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-    const lenis = new Lenis({
-      duration: 1.05,
-      easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      smoothWheel: true,
-      // keep native scrolling on touch devices; Lenis smooths wheels only
-      syncTouch: false,
-    });
-
-    let raf = 0;
-    const loop = (time: number) => {
-      lenis.raf(time);
-      raf = requestAnimationFrame(loop);
-    };
-    if (!reduce) raf = requestAnimationFrame(loop);
-
-    // parallax: data-parallax holds a speed like 0.12 (drifts down) or
-    // -0.15 (drifts up) relative to scroll position
-    const els: HTMLElement[] = [];
-    if (!reduce) {
-      document.querySelectorAll<HTMLElement>('[data-parallax]').forEach((el) => {
-        els.push(el);
-        el.classList.add('parallax');
-      });
-    }
-    const onScroll = () => {
-      const y = window.scrollY;
-      for (const el of els) {
-        const speed = Number(el.dataset.parallax || 0);
-        el.style.transform = `translate3d(0, ${(y * speed).toFixed(1)}px, 0)`;
-      }
-    };
-    lenis.on('scroll', onScroll);
-    onScroll();
-
-    return () => {
-      cancelAnimationFrame(raf);
-      lenis.destroy();
-    };
-  }, [done, gone, pathname]);
 
   if (gone) return null;
 
