@@ -18,6 +18,27 @@ export const SITE = {
 /** Base path when the app is served under a sub-path (e.g. /shaheen-welfare). */
 export const BASE = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
+/** Origin of the deployed site, used for canonical URLs, sitemap and JSON-LD. */
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://projects.nyronic.com';
+
+/** Absolute URL for a path, including the base path. */
+export const absoluteUrl = (path = '/') => `${SITE_URL}${BASE}${path}`;
+
+/** Shared per-page metadata: canonical URL plus matching Open Graph fields. */
+export function pageMetadata(title: string, description: string, path: string) {
+  return {
+    title,
+    description,
+    alternates: { canonical: path },
+    openGraph: {
+      title: `${title} | ${SITE.name}`,
+      description,
+      url: absoluteUrl(path),
+      images: [{ url: absoluteUrl('/og.jpg'), width: 1200, height: 630 }],
+    },
+  };
+}
+
 export const NAV = [
   { href: '/about', label: 'About' },
   { href: '/programs', label: 'Programs' },

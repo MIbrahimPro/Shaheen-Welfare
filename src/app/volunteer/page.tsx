@@ -2,11 +2,13 @@ import type { Metadata } from 'next';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import FormBlock from '@/components/FormBlock';
 import { PROGRAMS } from '@/lib/content';
+import { pageMetadata } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'Volunteer',
-  description: 'Volunteer with Shaheen Welfare Society: teachers, medical teams, trainers and community organizers welcome.',
-};
+export const metadata: Metadata = pageMetadata(
+  'Volunteer',
+  'Volunteer with Shaheen Welfare Society: teachers, medical teams, trainers and community organizers welcome.',
+  '/volunteer',
+);
 
 const INTERESTS = [...PROGRAMS.map((p) => p.title), 'General support / wherever needed'];
 

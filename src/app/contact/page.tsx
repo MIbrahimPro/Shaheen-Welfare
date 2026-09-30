@@ -1,12 +1,13 @@
 import type { Metadata } from 'next';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import FormBlock from '@/components/FormBlock';
-import { SITE } from '@/lib/site';
+import { SITE, pageMetadata } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'Contact',
-  description: 'Contact Shaheen Welfare Society: head office in Chak No. 15/SB, District Bhalwal, Sargodha.',
-};
+export const metadata: Metadata = pageMetadata(
+  'Contact',
+  'Contact Shaheen Welfare Society: head office in Chak No. 15/SB, District Bhalwal, Sargodha.',
+  '/contact',
+);
 
 export default function ContactPage() {
   return (

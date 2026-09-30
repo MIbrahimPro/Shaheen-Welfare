@@ -2,12 +2,13 @@ import type { Metadata } from 'next';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Link from 'next/link';
 import { CORE_VALUES, OBJECTIVES, PARTNERS } from '@/lib/content';
+import { pageMetadata } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'About',
-  description:
-    'Vision, mission, core values, objectives and history of Shaheen Welfare Society, Sargodha: a registered voluntary social welfare agency working since 2001.',
-};
+export const metadata: Metadata = pageMetadata(
+  'About',
+  'Vision, mission, core values, objectives and history of Shaheen Welfare Society, Sargodha: a registered voluntary social welfare agency working since 2001.',
+  '/about',
+);
 
 export default function AboutPage() {
   return (

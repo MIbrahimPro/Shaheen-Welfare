@@ -2,12 +2,16 @@ import type { Metadata } from 'next';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import Link from 'next/link';
 import { PROGRAMS } from '@/lib/content';
+import { pageMetadata } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'Programs',
-  description:
-    'Education, healthcare, disability support, social welfare, governance and economic empowerment programs of Shaheen Welfare Society.',
-};
+export const metadata: Metadata = pageMetadata(
+  'Programs',
+  'Education, healthcare, disability support, social welfare, governance and economic empowerment programs of Shaheen Welfare Society.',
+  '/programs',
+);
+
+// Programs change rarely; serve statically and refresh in the background.
+export const revalidate = 3600;
 
 export default function ProgramsPage() {
   return (

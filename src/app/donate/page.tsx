@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import FormBlock from '@/components/FormBlock';
-import { SITE } from '@/lib/site';
+import { SITE, pageMetadata } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'Donate',
-  description:
-    'Donate to Shaheen Welfare Society: direct bank transfer to National Bank of Pakistan, or make a pledge online.',
-};
+export const metadata: Metadata = pageMetadata(
+  'Donate',
+  'Donate to Shaheen Welfare Society: direct bank transfer to National Bank of Pakistan, or make a pledge online.',
+  '/donate',
+);
 
 const CAUSES = [
   'Education: uniforms, books, bicycles',

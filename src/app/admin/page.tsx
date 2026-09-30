@@ -50,8 +50,8 @@ export default async function AdminDashboard({
               className="card"
               style={{
                 textDecoration: 'none',
-                borderTopWidth: tab === t.type ? 6 : 4,
                 borderColor: tab === t.type ? 'var(--green)' : undefined,
+                boxShadow: tab === t.type ? 'inset 0 0 0 1px var(--green)' : undefined,
               }}
             >
               <p style={{ color: 'var(--ink-soft)', fontWeight: 600, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.06em' }}>

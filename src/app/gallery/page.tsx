@@ -1,14 +1,17 @@
 import type { Metadata } from 'next';
 import fs from 'node:fs';
 import path from 'node:path';
-import { BASE } from '@/lib/site';
+import { BASE, pageMetadata } from '@/lib/site';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
-export const metadata: Metadata = {
-  title: 'Gallery',
-  description:
-    'Photo reportage from the field: schools, medical camps, wheelchair distributions, vocational training and community events of Shaheen Welfare Society.',
-};
+export const metadata: Metadata = pageMetadata(
+  'Gallery',
+  'Photo reportage from the field: schools, medical camps, wheelchair distributions, vocational training and community events of Shaheen Welfare Society.',
+  '/gallery',
+);
+
+// The manifest changes only when photos are added; refresh hourly in background.
+export const revalidate = 3600;
 
 interface GalleryImage {
   src: string;
@@ -84,7 +87,7 @@ export default function GalleryPage() {
             </div>
           )}
           <p className="form-note" style={{ marginTop: 28 }}>
-            Scanned from the organization's printed profile; originals available at the head office.
+            Scanned from the organization’s printed profile; originals available at the head office.
           </p>
         </div>
       </section>

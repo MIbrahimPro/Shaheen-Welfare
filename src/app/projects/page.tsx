@@ -1,12 +1,16 @@
 import type { Metadata } from 'next';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { PROJECTS } from '@/lib/content';
+import { pageMetadata } from '@/lib/site';
 
-export const metadata: Metadata = {
-  title: 'Projects',
-  description:
-    'All 40 projects implemented by Shaheen Welfare Society since 2001, with funding partners and durations.',
-};
+export const metadata: Metadata = pageMetadata(
+  'Projects',
+  'All 40 projects implemented by Shaheen Welfare Society since 2001, with funding partners and durations.',
+  '/projects',
+);
+
+// The project list is effectively static; serve statically with hourly refresh.
+export const revalidate = 3600;
 
 export default function ProjectsPage() {
   return (
