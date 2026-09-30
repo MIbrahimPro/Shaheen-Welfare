@@ -22,6 +22,7 @@ export default function SiteExperience() {
   const [progress, setProgress] = useState(0);
   const [done, setDone] = useState(false); // triggers the slide-up
   const [gone, setGone] = useState(false); // unmounts the overlay
+  const [firstLoad, setFirstLoad] = useState(true);
 
   // Lenis smooth scrolling + parallax: once per route, paused during load.
   useEffect(() => {
@@ -35,7 +36,9 @@ export default function SiteExperience() {
       syncTouch: false,
     });
     (window as unknown as { __lenis?: Lenis }).__lenis = lenis;
-    lenis.stop(); // hold scrolling while the loader overlay is up
+    // hold scrolling only while the loader is actually up; on client-side
+    // route changes the loader never remounts, so start immediately
+    if (firstLoad) lenis.stop();
 
     let raf = requestAnimationFrame(function loop(time: number) {
       lenis.raf(time);
@@ -61,7 +64,7 @@ export default function SiteExperience() {
       lenis.destroy();
       (window as unknown as { __lenis?: Lenis }).__lenis = undefined;
     };
-  }, [pathname]);
+  }, [pathname, firstLoad]);
 
   // Resume smooth scrolling when the loader starts sliding away.
   useEffect(() => {
@@ -99,6 +102,7 @@ export default function SiteExperience() {
       if (cancelled) return;
       cancelled = true;
       cancelAnimationFrame(raf);
+      setFirstLoad(false);
       // minimum display time so the logo is actually seen
       const wait = Math.max(0, 900 - (performance.now() - started));
       setTimeout(() => {

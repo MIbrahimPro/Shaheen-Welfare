@@ -40,26 +40,24 @@ export default function DonatePage() {
               The fastest way to give. Transfer directly to the society’s account and email the
               receipt to <a href={`mailto:${SITE.email}`}>{SITE.email}</a> for a receipt.
             </p>
-            <div className="card" style={{ marginTop: 20 }}>
+            <div className="card iban-card" style={{ marginTop: 20 }}>
               <h3>Account details</h3>
-              <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: 8 }}>
-                <tbody>
-                  <tr>
-                    <td style={{ padding: '8px 0', color: 'var(--ink-soft)', width: 150 }}>Bank</td>
-                    <td style={{ padding: '8px 0', fontWeight: 700 }}>{SITE.bank.name}</td>
-                  </tr>
-                  <tr>
-                    <td style={{ padding: '8px 0', color: 'var(--ink-soft)' }}>Account title</td>
-                    <td style={{ padding: '8px 0', fontWeight: 700 }}>{SITE.bank.title}</td>
-                  </tr>
-                  <tr>
-                    <td style={{ padding: '8px 0', color: 'var(--ink-soft)', verticalAlign: 'top' }}>IBAN</td>
-                    <td style={{ padding: '8px 0', fontWeight: 700 }} className="mono">
-                      {SITE.bank.iban}
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+              <p style={{ marginTop: 8 }}>
+                <span className="iban-label">Bank</span>
+                {SITE.bank.name}
+              </p>
+              <p style={{ marginTop: 8 }}>
+                <span className="iban-label">Account title</span>
+                {SITE.bank.title}
+              </p>
+              <p style={{ marginTop: 8 }}>
+                <span className="iban-label">IBAN</span>
+                <strong className="mono" style={{ fontSize: '1.02rem' }}>{SITE.bank.iban}</strong>
+              </p>
+              <p className="form-note" style={{ marginTop: 12 }}>
+                Email the transfer receipt to <a href={`mailto:${SITE.email}`}>{SITE.email}</a> and we
+                will send a documented receipt back.
+              </p>
             </div>
             <div className="sticky-note" style={{ marginTop: 20 }}>
               <h3>What your money does</h3>

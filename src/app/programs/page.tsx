@@ -28,7 +28,7 @@ export default function ProgramsPage() {
         <div className="wrap">
           {PROGRAMS.map((p, idx) => (
             <div key={p.slug} id={p.slug} style={{ marginBottom: 56 }}>
-              <div className={`grid grid--2${idx % 2 === 1 ? '' : ''}`} style={{ alignItems: 'start' }}>
+              <div className="program-row" style={{ alignItems: 'start' }}>
                 <div>
                   <h2>{p.title}</h2>
                   <p style={{ marginTop: 10 }}>{p.intro}</p>

@@ -107,7 +107,7 @@ export default function HomePage() {
               rupee and every decision stays accountable to the communities we serve.
             </p>
           </div>
-          <ul className="partner-line">
+          <ul className="partner-index">
             {PARTNERS.slice(0, 8).map((p) => (
               <li key={p}>{p}</li>
             ))}

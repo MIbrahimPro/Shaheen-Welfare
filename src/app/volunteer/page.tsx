@@ -57,12 +57,12 @@ export default function VolunteerPage() {
           <aside>
             <div className="card">
               <h3>How volunteering works</h3>
-              <ul className="impact-list">
+              <ol className="steps">
                 <li>You register here and tell us where you can help.</li>
                 <li>Our coordinator calls you within a week.</li>
                 <li>You join a real activity: a camp, a class, a distribution.</li>
                 <li>You decide how often to continue. No pressure.</li>
-              </ul>
+              </ol>
             </div>
             <div className="sticky-note" style={{ marginTop: 20 }}>
               <h3>Who we need most</h3>

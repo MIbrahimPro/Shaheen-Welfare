@@ -77,13 +77,11 @@ export default function AboutPage() {
           <div className="section-head">
             <h2>Core objectives</h2>
           </div>
-          <div className="grid grid--2">
+          <ol className="steps">
             {OBJECTIVES.map((o, i) => (
-              <div className="card" key={i}>
-                <p style={{ fontSize: '1.05rem', color: 'var(--ink)' }}>{o}</p>
-              </div>
+              <li key={i} style={{ fontSize: '1.05rem', color: 'var(--ink)' }}>{o}</li>
             ))}
-          </div>
+          </ol>
         </div>
       </section>
 
@@ -116,13 +114,11 @@ export default function AboutPage() {
           <div className="section-head">
             <h2>Partners &amp; collaborators</h2>
           </div>
-          <div className="grid grid--3">
+          <ul className="partner-index">
             {PARTNERS.map((p) => (
-              <div className="card card--plain" key={p}>
-                <p style={{ fontWeight: 600, color: 'var(--ink)', fontSize: '0.95rem' }}>{p}</p>
-              </div>
+              <li key={p}>{p}</li>
             ))}
-          </div>
+          </ul>
           <p style={{ marginTop: 32 }}>
             <Link className="btn" href="/contact">
               Work with us

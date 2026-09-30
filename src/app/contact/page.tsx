@@ -17,6 +17,10 @@ export default function ContactPage() {
           <Breadcrumbs current="Contact" />
           <h1>Contact us</h1>
           <p>Write to us, visit the office, or call: we answer every message.</p>
+          <p style={{ marginTop: 18, display: 'flex', gap: 12, flexWrap: 'wrap' }}>
+            <a className="btn btn--sm btn--light" href={`mailto:${SITE.email}`}>Email the office</a>
+            <a className="btn btn--sm btn--light" href={`tel:${SITE.phone.replace(/\s/g, '')}`}>Call {SITE.phone}</a>
+          </p>
         </div>
       </div>
 
