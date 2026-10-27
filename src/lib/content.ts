@@ -10,13 +10,13 @@ export const PROGRAMS: Program[] = [
     slug: 'education',
     title: 'Education & Literacy',
     intro:
-      'From a cadet school for orphans to sixty non-formal schools and an ongoing literacy campaign, education has been at the heart of our work since 2001.',
+      'From a cadet school for orphans to non-formal schools, school admissions and practical support for girls, education has been at the heart of our work since 2001.',
     items: [
       'Shaheen Cadet School (2001–2018): free quality schooling for orphaned and needy children',
       '60 Non-Formal Basic Education Schools with the Literacy Department (2005)',
       'Literacy campaign “Apna Haq Jana” (ongoing)',
       'Rise Education Project in partnership with Bedari (2024)',
-      'School uniforms and bags for orphaned and deserving girls',
+      'School admissions, uniforms, bags and books for orphaned and deserving girls',
       'Bicycles for girls who travel far to attend school',
     ],
   },
@@ -39,23 +39,25 @@ export const PROGRAMS: Program[] = [
     slug: 'disability',
     title: 'Support for Persons with Disabilities',
     intro:
-      'Mobility equipment, documentation help and vocational skills so persons with disabilities can participate fully in society.',
+      'Disability-card support, mobility equipment and vocational skills so persons with disabilities can participate fully in society.',
     items: [
       'Wheelchairs, tricycles and prosthetic forms',
-      'Financial assistance for disability cards',
-      'Vocational training: sewing machines for economic independence',
+      'Registration help and financial assistance for disability cards',
+      'School support, uniforms and equipment for children with disabilities',
+      'Vocational training and sewing machines for economic independence',
     ],
   },
   {
     slug: 'social-welfare',
     title: 'Social Welfare & Relief',
     intro:
-      'Direct support for orphans, widows and families in crisis, from Ramadan packages to flood relief and legal aid.',
+      'Direct support for orphans, widows and families in crisis, from Ramadan packages and legal aid to flood and natural-disaster relief.',
     items: [
       'Ramadan and Eid packages for orphans and widows',
       'Legal assistance for the poor and marginalized',
       'Legal Advocacy Cell “Mushkil Daso Hal Dasay”',
       'Relief camp for flood victims (2010, Founder’s initiative)',
+      'Emergency support for families affected by natural disasters',
       'Plantation drives and environmental awareness',
       'Safe drinking water awareness',
     ],
@@ -83,6 +85,8 @@ export const PROGRAMS: Program[] = [
       'Skills that pay. Our vocational training center equips women to earn, save and stand on their own feet.',
     items: [
       'Shaheen Vocational Training Center for women',
+      'Computer, flower making, beauty care, sewing and embroidery skills',
+      'Pottery, flowerpot making and other practical crafts',
       'Economic Empowerment Program',
       'Political Empowerment Program',
       'Local Governance Program',
@@ -165,6 +169,46 @@ export const CORE_VALUES = [
   'Human rights and gender equality',
   'Participatory decision-making',
 ];
+
+export const FOCUS_AREAS = [
+  {
+    title: 'Women’s empowerment',
+    description: 'Promoting equal opportunities and strengthening women’s social, political and economic leadership.',
+  },
+  {
+    title: 'Decentralized governance',
+    description: 'Integrating rights-based initiatives into local governance and grassroots structures.',
+  },
+  {
+    title: 'Partnership for social equity',
+    description: 'Working with civil society, government and communities to address marginalization and strengthen trust.',
+  },
+] as const;
+
+export const AREAS_OF_EXPERTISE = [
+  {
+    title: 'Research',
+    description: 'Applied and participatory research to identify social issues, inform policy and guide accessible interventions.',
+  },
+  {
+    title: 'Advocacy',
+    description: 'Research-based public dialogue, policy debate and awareness work that amplifies citizens’ voices.',
+  },
+  {
+    title: 'Development interventions',
+    description: 'Political, local-governance, economic-empowerment, literacy, family-health and social-development programs.',
+  },
+] as const;
+
+export const DEVELOPMENT_INTERVENTIONS = [
+  'Political Empowerment Program',
+  'Local Governance Program',
+  'Economic Empowerment Program',
+  'Literacy and Non-Formal Education',
+  'Family Health Program',
+  'HIV Awareness, Counseling and Testing Center',
+  'Radio for Social Development',
+] as const;
 
 export const OBJECTIVES = [
   'To empower women by ensuring their equal access to power structures and economic self-reliance.',

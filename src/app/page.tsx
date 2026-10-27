@@ -13,8 +13,8 @@ export default function HomePage() {
               <p className="lede">
                 Shaheen Welfare Society is a registered voluntary social welfare agency in District
                 Sargodha, Punjab. Since 2001 we have worked village by village, in education,
-                healthcare, disability support, local governance and women’s empowerment, with one
-                rule above all: the community leads, we serve.
+                healthcare, disability support, local governance and women’s empowerment. The
+                community leads; we serve.
               </p>
               <div className="hero-actions">
                 <Link href="/donate" className="btn btn--light">
@@ -73,16 +73,20 @@ export default function HomePage() {
             <h2>Work that reached real people</h2>
             <ul className="impact-list">
               <li>60 non-formal basic education schools established with the Literacy Department (2005)</li>
-              <li>300 uniforms given to orphaned and needy students, plus a bicycle for a girl’s long walk to school</li>
-              <li>Wheelchairs, tricycles and prosthetic forms distributed to persons with disabilities</li>
+              <li>School admissions, uniforms, bags and books for orphaned and deserving girls</li>
+              <li>Disability-card support, wheelchairs, tricycles and vocational help for persons with disabilities</li>
+              <li>Computer, flower making, beauty care, sewing, embroidery and craft skills for women</li>
               <li>Free medical and eye camps with the Bin Mutlib Foundation</li>
-              <li>Relief camp for flood victims during the 2010 floods</li>
-              <li>Election observation and youth dialogues across Bhera and Bhalwal (2024)</li>
-              <li>Legal aid for the poor through the “Mushkil Daso Hal Dasay” advocacy cell</li>
+              <li>Relief for flood-affected families and support during natural disasters</li>
+              <li>Plantation drives and awareness about pollution, smog, water and a clean environment</li>
+              <li>Women’s-rights awareness, legal aid and community advocacy through “Mushkil Daso Hal Dasay”</li>
             </ul>
             <p style={{ marginTop: 20 }}>
               <Link className="btn" href="/projects">
                 See all 40 projects
+              </Link>
+              <Link className="btn btn--ghost" href="/gallery#fieldwork-disability" style={{ marginLeft: 10 }}>
+                See field work
               </Link>
             </p>
           </div>

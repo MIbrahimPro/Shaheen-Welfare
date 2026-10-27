@@ -52,7 +52,13 @@ npm run dev            # http://localhost:3000
 
 ## Gallery
 
-`public/gallery` holds 110 photographs extracted from the organization profile PDF.
+`/gallery` is the public field-work record. It groups the supplied photographs and video records by
+disability support, education, women’s empowerment, health, relief, environment and rights work.
+Optimized media lives under `public/gallery/fieldwork`, with its captions and grouping in
+`src/lib/fieldwork.ts`. The page also keeps the 110 photographs extracted from the organization
+profile PDF as a separate archive.
+
+`public/gallery` holds the 110 profile photographs extracted from the organization profile PDF.
 Rebuild with `GALLERY_SRC=<folder> node scripts/build-local-gallery.mjs` (writes
 `public/gallery.json`). To mirror to Cloudinary once the key has upload rights:
 `node scripts/cloudinary-upload.mjs` and point `src/lib/content.ts` URLs at the CDN.
