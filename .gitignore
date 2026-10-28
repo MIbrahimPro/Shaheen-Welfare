@@ -2,6 +2,7 @@ node_modules
 .next
 out
 standalone
+.env
 .env.local
 .env*.local
 *.tsbuildinfo

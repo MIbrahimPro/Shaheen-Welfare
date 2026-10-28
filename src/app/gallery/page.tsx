@@ -60,7 +60,7 @@ function FieldworkCard({ media }: { media: FieldworkMedia }) {
         )}
       </div>
       <figcaption>
-        <span className="fieldwork-type">{media.kind === 'video' ? 'Video record' : 'Photo record'}</span>
+        {media.kind === 'video' && <span className="fieldwork-video-badge">Video</span>}
         {media.caption}
       </figcaption>
     </figure>

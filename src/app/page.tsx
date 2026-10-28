@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { PROGRAMS, PARTNERS } from '@/lib/content';
+import { PROGRAMS, PARTNERS, CORE_VALUES } from '@/lib/content';
 import { BASE } from '@/lib/site';
 
 export default function HomePage() {
@@ -30,17 +30,64 @@ export default function HomePage() {
             </div>
             <figure className="hero-figure" data-parallax="-0.05">
               <img
-                src={`${BASE}/gallery/pg-023-600.jpg`}
-                alt="Volunteers of Shaheen Welfare Society hand out Ramadan ration bags to village families"
-                width={804}
-                height={603}
+                src={`${BASE}/gallery/fieldwork/education-001.jpg`}
+                alt="Shaheen Welfare Society team and dignitaries distributing school uniforms and books to students"
+                width={1600}
+                height={720}
               />
-              <figcaption>Ramadan ration distribution in a village courtyard, District Sargodha.</figcaption>
+              <figcaption>Annual school uniform and books distribution for deserving students, Shaheen Welfare Society.</figcaption>
             </figure>
           </div>
           <p className="hero-line">
             40+ projects · 25 years · 60 non-formal schools (2005) · every rupee accounted for.
           </p>
+        </div>
+      </section>
+
+      <section className="section section--dim">
+        <div className="wrap">
+          <div className="section-head">
+            <h2>Vision &amp; Mission</h2>
+            <p>
+              The foundational principles behind twenty-five years of community empowerment in District Sargodha.
+            </p>
+          </div>
+          <div className="two-col" style={{ alignItems: 'stretch' }}>
+            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
+              <p className="fieldwork-eyebrow" style={{ marginBottom: 6 }}>Our Vision</p>
+              <h3 style={{ fontSize: '1.35rem', marginBottom: 12 }}>Empowerment &amp; Sustainable Linkages</h3>
+              <p style={{ color: 'var(--ink)', flexGrow: 1 }}>
+                Shaheen Welfare Society aims to support marginalized communities and specialized groups by
+                providing technical expertise, fostering sustainable linkages, and promoting institutional
+                autonomy. The organization has established a Research and Training Center to enhance
+                knowledge, innovation, and community empowerment.
+              </p>
+              <p style={{ marginTop: 14, fontSize: '0.92rem', color: 'var(--ink-soft)' }}>
+                Collaborating with partners including CIDA, UNDP, TVO, and Aurat Foundation to strengthen the social sector for greater equity and inclusion.
+              </p>
+            </div>
+            <div className="card" style={{ display: 'flex', flexDirection: 'column' }}>
+              <p className="fieldwork-eyebrow" style={{ marginBottom: 6 }}>Our Mission</p>
+              <h3 style={{ fontSize: '1.35rem', marginBottom: 12 }}>Transfer of Power to Communities</h3>
+              <p style={{ color: 'var(--ink)', flexGrow: 1 }}>
+                Our mission is to develop society through participatory, integrated, and sustainable
+                development approaches that ensure the transfer of power to communities.
+              </p>
+              <p style={{ marginTop: 14, fontSize: '0.92rem', color: 'var(--ink-soft)' }}>
+                We bring together skilled professionals, strong institutional connections, and proven commitment
+                in research, development, capacity building, advocacy, and networking across governance, health,
+                education, and environmental sectors.
+              </p>
+            </div>
+          </div>
+          <div className="card" style={{ marginTop: 24 }}>
+            <h3>Core Values</h3>
+            <ul className="impact-list" style={{ marginTop: 12, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '8px 24px' }}>
+              {CORE_VALUES.map((val) => (
+                <li key={val}>{val}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
 

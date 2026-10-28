@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import { PROJECTS } from '@/lib/content';
+import { PROJECTS, TRAININGS } from '@/lib/content';
 import { pageMetadata } from '@/lib/site';
 
 export const metadata: Metadata = pageMetadata(
-  'Projects',
-  'All 40 projects implemented by Shaheen Welfare Society since 2001, with funding partners and durations.',
+  'Projects & Trainings',
+  'All 40 projects implemented and 30 institutional trainings attended by Shaheen Welfare Society since 2001.',
   '/projects',
 );
 
@@ -18,16 +18,20 @@ export default function ProjectsPage() {
       <div className="page-head">
         <div className="wrap">
           <Breadcrumbs current="Projects" />
-          <h1>Projects implemented</h1>
+          <h1>Projects &amp; Institutional Capacity</h1>
           <p>
-            Forty projects since 2001, from schools and clinics to election observation and flood
-            relief. Ongoing projects continue to serve the community today.
+            Forty projects implemented and thirty specialized trainings attended since 2001,
+            building sustainable capacity across District Sargodha.
           </p>
         </div>
       </div>
 
       <section className="section">
         <div className="wrap">
+          <div className="section-head">
+            <h2>Projects implemented</h2>
+            <p>From schools and healthcare to election observation and emergency flood relief.</p>
+          </div>
           <div className="table-wrap">
             <table className="data">
               <thead>
@@ -52,7 +56,41 @@ export default function ProjectsPage() {
           </div>
           <p className="form-note" style={{ marginTop: 16 }}>
             Source: Shaheen Welfare Society organization profile. Project numbering follows the
-            profile document.
+            official document.
+          </p>
+        </div>
+      </section>
+
+      <section className="section section--dim">
+        <div className="wrap">
+          <div className="section-head">
+            <h2>Participation in Training</h2>
+            <p>
+              Capacity building, rights-based advocacy and professional training attended by the society&apos;s leadership and team.
+            </p>
+          </div>
+          <div className="table-wrap">
+            <table className="data">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Training attended</th>
+                  <th scope="col">Imparted by</th>
+                </tr>
+              </thead>
+              <tbody>
+                {TRAININGS.map((t, i) => (
+                  <tr key={i}>
+                    <td>{i + 1}</td>
+                    <td>{t.title}</td>
+                    <td>{t.impartedBy}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="form-note" style={{ marginTop: 16 }}>
+            Source: Shaheen Welfare Society organization profile, Page 6.
           </p>
         </div>
       </section>

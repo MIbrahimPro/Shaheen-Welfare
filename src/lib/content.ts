@@ -216,3 +216,44 @@ export const OBJECTIVES = [
   'To bridge the gap between civil society, public sector and communities for improved social development and institution building.',
   'To promote inclusion and opportunities for persons with disabilities.',
 ];
+
+export const CONCLUSION =
+  'Shaheen Welfare Society, Sargodha, stands as a community-driven organization dedicated to empowering marginalized groups, strengthening governance, and promoting social equity through research, advocacy, and partnerships. With over two decades of grassroots experience, we continue to strive for a just, inclusive, and equitable society in Pakistan.';
+
+export interface TrainingRecord {
+  title: string;
+  impartedBy: string;
+}
+
+export const TRAININGS: TrainingRecord[] = [
+  { title: 'Development planning & management workshop', impartedBy: 'SPO' },
+  { title: 'Crisis Management', impartedBy: 'MPDD, Government of Punjab' },
+  { title: 'TB training for treatment', impartedBy: 'The Asia Foundation' },
+  { title: 'Capacity Building', impartedBy: 'SPO' },
+  { title: 'Continuous Teachers Development Program', impartedBy: 'Punjab Education Foundation' },
+  { title: 'TOT of life', impartedBy: 'Bunyad' },
+  { title: 'Plantation', impartedBy: 'Pakistan Forest Institute of Peshawar' },
+  { title: 'Vocational Training Flower Making', impartedBy: 'PFWA, SPO' },
+  { title: 'Non Formal Education Teachers Training', impartedBy: 'Government of Punjab' },
+  { title: 'National Commission for Women', impartedBy: 'Government / UNESCO Islamabad' },
+  { title: 'Family Planning Association of Pakistan (2007)', impartedBy: 'Government of Punjab' },
+  { title: 'Idrees Organization (7 days)', impartedBy: 'Idrees Organization AJK Program' },
+  { title: 'Hepatitis C Awareness (5 days)', impartedBy: 'Government of Punjab' },
+  { title: 'One day Women Leaders training', impartedBy: 'Government of Punjab' },
+  { title: 'Prime Minister National Health Program Distribution Awareness', impartedBy: 'Government of Pakistan' },
+  { title: 'Training Workshop & NGOs Convention', impartedBy: 'Punjab Social Service' },
+  { title: 'Child protection issues', impartedBy: 'Social Welfare WD&BM Sargodha' },
+  { title: 'Minimum initial service package (3 days)', impartedBy: 'RFPAP' },
+  { title: 'Women Legal Rights', impartedBy: 'Women Protection Social Welfare Department Punjab' },
+  { title: 'Social Behavior training', impartedBy: 'RFPAP' },
+  { title: 'Workshop on Interactive Community Dialogue', impartedBy: 'The Asia Foundation' },
+  { title: 'SGBV SRHR training', impartedBy: 'IPAS online' },
+  { title: 'SRHR training', impartedBy: 'RFPAP' },
+  { title: 'Social Activities & Nation Building', impartedBy: 'People Social Welfare Societies' },
+  { title: 'Communication and Social Behavior', impartedBy: 'RFPAP' },
+  { title: 'Prevention from COVID-19', impartedBy: 'Government Health Department' },
+  { title: 'Value clarification', impartedBy: 'RFPAP' },
+  { title: 'Quality of care', impartedBy: 'RFPAP in Lahore' },
+  { title: 'Jamhoor Dost Program', impartedBy: 'Bedari' },
+  { title: 'Capacity Building Training (Rise Project)', impartedBy: 'Bedari' },
+];

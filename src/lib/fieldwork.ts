@@ -22,52 +22,52 @@ export interface FieldworkMedia {
 
 export const FIELDWORK_CATEGORIES: FieldworkCategory[] = [
   {
-    slug: "disability",
-    title: "Persons with disabilities",
-    eyebrow: "Inclusion & mobility",
-    intro: "From disability-card support to wheelchairs, tricycles and practical help, the society works so people with disabilities can move, work and participate with dignity.",
-  },
-  {
     slug: "education",
     title: "Education & school support",
     eyebrow: "Children & learning",
-    intro: "School admissions, uniforms, bags, books and learning opportunities help orphaned and deserving children stay in education.",
+    intro: "From Shaheen Cadet School to school admissions, uniforms, bags, books and bicycles, learning opportunities help orphaned and deserving children stay in education.",
+  },
+  {
+    slug: "disability",
+    title: "Persons with disabilities",
+    eyebrow: "Inclusion & mobility",
+    intro: "From disability-card registration to wheelchairs, tricycles and vocational equipment, the society ensures people with disabilities participate with dignity.",
   },
   {
     slug: "women",
     title: "Women’s empowerment & livelihoods",
     eyebrow: "Skills & rights",
-    intro: "Women build economic independence through sewing, embroidery, flower making, crafts, computer skills, beauty care and other practical training.",
-  },
-  {
-    slug: "health",
-    title: "Medical camps & public health",
-    eyebrow: "Care close to home",
-    intro: "Free medical support, health camps and community outreach bring care and awareness to families who may otherwise go without it.",
-  },
-  {
-    slug: "relief",
-    title: "Flood relief & natural disasters",
-    eyebrow: "Emergency support",
-    intro: "When floods and other natural disasters disrupt lives, the society organizes relief, reaches affected families and documents the response.",
-  },
-  {
-    slug: "environment",
-    title: "Plantation & the environment",
-    eyebrow: "A healthier community",
-    intro: "Plantation drives, kitchen gardens and awareness about pollution, smog, water and a clean environment connect local action with long-term wellbeing.",
+    intro: "Women build economic independence through sewing, embroidery, flower making, crafts, computer skills, beauty care and vocational training.",
   },
   {
     slug: "rights",
     title: "Rights, awareness & advocacy",
     eyebrow: "Voice & accountability",
-    intro: "Community dialogues, women’s-rights awareness and campaigns against violence help people understand and claim their rights.",
+    intro: "Community dialogues, legal advisory cell 'Mushkil Daso Hal Dasay', women’s-rights awareness and campaigns against violence help citizens claim their rights.",
+  },
+  {
+    slug: "health",
+    title: "Medical camps & public health",
+    eyebrow: "Care close to home",
+    intro: "Free medical and eye camps with Bin Mutlib Foundation, Shaheen Health Care clinic, and health drives bring essential care to rural families.",
+  },
+  {
+    slug: "relief",
+    title: "Flood relief & natural disasters",
+    eyebrow: "Emergency support",
+    intro: "When floods and natural disasters strike, the society mobilizes emergency relief camps, ration packages and essential aid for affected families.",
+  },
+  {
+    slug: "environment",
+    title: "Plantation & the environment",
+    eyebrow: "A healthier community",
+    intro: "Plantation drives, kitchen gardens and awareness campaigns about smog, water and environmental protection safeguard local communities.",
   },
   {
     slug: "community",
     title: "Community action & public life",
     eyebrow: "Together in the field",
-    intro: "Public meetings, national-day activities and local campaigns bring residents, volunteers and partners together around shared goals.",
+    intro: "Public meetings, civic dialogues, voter awareness with Bedari/FAFEN and national events bring citizens and community leaders together.",
   },
 ];
 
@@ -78,7 +78,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/disability-001.jpg",
     width: 1280,
     height: 960,
-    alt: "Photo record of persons with disabilities by Shaheen Welfare Society.",
+    alt: "persons with disabilities by Shaheen Welfare Society.",
     caption: "Wheelchair, tricycle or disability-support activity in the community.",
   },
   {
@@ -87,7 +87,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/disability-002.jpg",
     width: 1200,
     height: 1600,
-    alt: "Photo record of persons with disabilities by Shaheen Welfare Society.",
+    alt: "persons with disabilities by Shaheen Welfare Society.",
     caption: "Wheelchair, tricycle or disability-support activity in the community.",
   },
   {
@@ -96,7 +96,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/disability-003.jpg",
     width: 1280,
     height: 960,
-    alt: "Photo record of persons with disabilities by Shaheen Welfare Society.",
+    alt: "persons with disabilities by Shaheen Welfare Society.",
     caption: "Wheelchair, tricycle or disability-support activity in the community.",
   },
   {
@@ -105,7 +105,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/disability-004.jpg",
     width: 960,
     height: 1280,
-    alt: "Photo record of persons with disabilities by Shaheen Welfare Society.",
+    alt: "persons with disabilities by Shaheen Welfare Society.",
     caption: "Wheelchair, tricycle or disability-support activity in the community.",
   },
   {
@@ -117,7 +117,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 848,
     posterWidth: 480,
     posterHeight: 848,
-    alt: "Video record of persons with disabilities by Shaheen Welfare Society.",
+    alt: "persons with disabilities by Shaheen Welfare Society.",
     caption: "Wheelchair, tricycle or disability-support activity in the community.",
   },
   {
@@ -129,7 +129,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 848,
     posterWidth: 480,
     posterHeight: 848,
-    alt: "Video record of persons with disabilities by Shaheen Welfare Society.",
+    alt: "persons with disabilities by Shaheen Welfare Society.",
     caption: "Wheelchair, tricycle or disability-support activity in the community.",
   },
   {
@@ -141,7 +141,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 848,
     posterWidth: 480,
     posterHeight: 848,
-    alt: "Video record of persons with disabilities by Shaheen Welfare Society.",
+    alt: "persons with disabilities by Shaheen Welfare Society.",
     caption: "Wheelchair, tricycle or disability-support activity in the community.",
   },
   {
@@ -153,7 +153,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 864,
     posterWidth: 480,
     posterHeight: 864,
-    alt: "Video record of persons with disabilities by Shaheen Welfare Society.",
+    alt: "persons with disabilities by Shaheen Welfare Society.",
     caption: "Wheelchair, tricycle or disability-support activity in the community.",
   },
   {
@@ -162,7 +162,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-001.jpg",
     width: 1600,
     height: 720,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -171,7 +171,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-002.jpg",
     width: 716,
     height: 692,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -180,7 +180,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-003.jpg",
     width: 1600,
     height: 787,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -189,7 +189,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-004.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -198,7 +198,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-005.jpg",
     width: 1084,
     height: 756,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -207,7 +207,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-006.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -216,7 +216,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-007.jpg",
     width: 1599,
     height: 906,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -225,7 +225,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-008.jpg",
     width: 920,
     height: 1384,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -234,7 +234,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-009.jpg",
     width: 1280,
     height: 960,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -243,7 +243,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-010.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -252,7 +252,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-011.jpg",
     width: 1200,
     height: 1600,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -264,7 +264,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 864,
     posterWidth: 480,
     posterHeight: 864,
-    alt: "Video record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -273,7 +273,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-013.jpg",
     width: 1040,
     height: 780,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -282,7 +282,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-014.jpg",
     width: 1040,
     height: 780,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -291,7 +291,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-015.jpg",
     width: 1040,
     height: 780,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -300,7 +300,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-016.jpg",
     width: 1200,
     height: 1600,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -309,7 +309,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-017.jpg",
     width: 1040,
     height: 780,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -318,7 +318,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-018.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -327,7 +327,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-019.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -336,7 +336,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-020.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -345,7 +345,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-021.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -354,7 +354,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-022.jpg",
     width: 1280,
     height: 720,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -363,7 +363,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-023.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -372,7 +372,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-024.jpg",
     width: 1280,
     height: 720,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -381,7 +381,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-025.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -390,7 +390,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-026.jpg",
     width: 1464,
     height: 1346,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -399,7 +399,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/education-027.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of education & school support by Shaheen Welfare Society.",
+    alt: "education & school support by Shaheen Welfare Society.",
     caption: "School support and learning activity for children.",
   },
   {
@@ -408,7 +408,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-001.jpg",
     width: 1200,
     height: 1600,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -417,7 +417,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-002.jpg",
     width: 960,
     height: 1280,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -426,7 +426,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-003.jpg",
     width: 716,
     height: 448,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -435,7 +435,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-004.jpg",
     width: 714,
     height: 1599,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -444,7 +444,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-005.jpg",
     width: 1280,
     height: 1075,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -453,7 +453,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-006.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -462,7 +462,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-007.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -471,7 +471,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-008.jpg",
     width: 1280,
     height: 960,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -480,7 +480,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-009.jpg",
     width: 1200,
     height: 1600,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -489,7 +489,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-010.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -498,7 +498,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-011.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -507,7 +507,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-012.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -519,7 +519,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 864,
     posterWidth: 480,
     posterHeight: 864,
-    alt: "Video record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -531,7 +531,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 864,
     posterWidth: 480,
     posterHeight: 864,
-    alt: "Video record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -540,7 +540,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-015.jpg",
     width: 1600,
     height: 602,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -549,7 +549,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-016.jpg",
     width: 1280,
     height: 919,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -558,7 +558,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/women-017.jpg",
     width: 714,
     height: 1599,
-    alt: "Photo record of women’s empowerment & livelihoods by Shaheen Welfare Society.",
+    alt: "women’s empowerment & livelihoods by Shaheen Welfare Society.",
     caption: "Women’s skills training, crafts or livelihood support.",
   },
   {
@@ -567,7 +567,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/health-001.jpg",
     width: 1280,
     height: 561,
-    alt: "Photo record of medical camps & public health by Shaheen Welfare Society.",
+    alt: "medical camps & public health by Shaheen Welfare Society.",
     caption: "Community medical or public-health support.",
   },
   {
@@ -576,7 +576,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/health-002.jpg",
     width: 1280,
     height: 561,
-    alt: "Photo record of medical camps & public health by Shaheen Welfare Society.",
+    alt: "medical camps & public health by Shaheen Welfare Society.",
     caption: "Community medical or public-health support.",
   },
   {
@@ -585,7 +585,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/health-003.jpg",
     width: 1600,
     height: 1122,
-    alt: "Photo record of medical camps & public health by Shaheen Welfare Society.",
+    alt: "medical camps & public health by Shaheen Welfare Society.",
     caption: "Community medical or public-health support.",
   },
   {
@@ -594,7 +594,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/health-004.jpg",
     width: 1280,
     height: 561,
-    alt: "Photo record of medical camps & public health by Shaheen Welfare Society.",
+    alt: "medical camps & public health by Shaheen Welfare Society.",
     caption: "Community medical or public-health support.",
   },
   {
@@ -603,7 +603,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/health-005.jpg",
     width: 1280,
     height: 561,
-    alt: "Photo record of medical camps & public health by Shaheen Welfare Society.",
+    alt: "medical camps & public health by Shaheen Welfare Society.",
     caption: "Community medical or public-health support.",
   },
   {
@@ -612,7 +612,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/health-006.jpg",
     width: 1200,
     height: 1600,
-    alt: "Photo record of medical camps & public health by Shaheen Welfare Society.",
+    alt: "medical camps & public health by Shaheen Welfare Society.",
     caption: "Community medical or public-health support.",
   },
   {
@@ -621,7 +621,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/health-007.jpg",
     width: 1178,
     height: 560,
-    alt: "Photo record of medical camps & public health by Shaheen Welfare Society.",
+    alt: "medical camps & public health by Shaheen Welfare Society.",
     caption: "Community medical or public-health support.",
   },
   {
@@ -630,7 +630,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/health-008.jpg",
     width: 788,
     height: 560,
-    alt: "Photo record of medical camps & public health by Shaheen Welfare Society.",
+    alt: "medical camps & public health by Shaheen Welfare Society.",
     caption: "Community medical or public-health support.",
   },
   {
@@ -639,7 +639,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/health-009.jpg",
     width: 1200,
     height: 1600,
-    alt: "Photo record of medical camps & public health by Shaheen Welfare Society.",
+    alt: "medical camps & public health by Shaheen Welfare Society.",
     caption: "Community medical or public-health support.",
   },
   {
@@ -651,7 +651,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 864,
     posterWidth: 480,
     posterHeight: 864,
-    alt: "Video record of medical camps & public health by Shaheen Welfare Society.",
+    alt: "medical camps & public health by Shaheen Welfare Society.",
     caption: "Community medical or public-health support.",
   },
   {
@@ -663,7 +663,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 864,
     posterWidth: 480,
     posterHeight: 864,
-    alt: "Video record of medical camps & public health by Shaheen Welfare Society.",
+    alt: "medical camps & public health by Shaheen Welfare Society.",
     caption: "Community medical or public-health support.",
   },
   {
@@ -672,7 +672,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/relief-001.jpg",
     width: 714,
     height: 1599,
-    alt: "Photo record of flood relief & natural disasters by Shaheen Welfare Society.",
+    alt: "flood relief & natural disasters by Shaheen Welfare Society.",
     caption: "Relief and support for families affected by flooding or disaster.",
   },
   {
@@ -681,7 +681,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/relief-002.jpg",
     width: 571,
     height: 1280,
-    alt: "Photo record of flood relief & natural disasters by Shaheen Welfare Society.",
+    alt: "flood relief & natural disasters by Shaheen Welfare Society.",
     caption: "Relief and support for families affected by flooding or disaster.",
   },
   {
@@ -690,7 +690,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/relief-003.jpg",
     width: 855,
     height: 1600,
-    alt: "Photo record of flood relief & natural disasters by Shaheen Welfare Society.",
+    alt: "flood relief & natural disasters by Shaheen Welfare Society.",
     caption: "Relief and support for families affected by flooding or disaster.",
   },
   {
@@ -699,7 +699,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/relief-004.jpg",
     width: 843,
     height: 1264,
-    alt: "Photo record of flood relief & natural disasters by Shaheen Welfare Society.",
+    alt: "flood relief & natural disasters by Shaheen Welfare Society.",
     caption: "Relief and support for families affected by flooding or disaster.",
   },
   {
@@ -708,7 +708,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/relief-005.jpg",
     width: 1200,
     height: 1600,
-    alt: "Photo record of flood relief & natural disasters by Shaheen Welfare Society.",
+    alt: "flood relief & natural disasters by Shaheen Welfare Society.",
     caption: "Relief and support for families affected by flooding or disaster.",
   },
   {
@@ -717,7 +717,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/relief-006.jpg",
     width: 1585,
     height: 792,
-    alt: "Photo record of flood relief & natural disasters by Shaheen Welfare Society.",
+    alt: "flood relief & natural disasters by Shaheen Welfare Society.",
     caption: "Relief and support for families affected by flooding or disaster.",
   },
   {
@@ -726,7 +726,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/relief-007.jpg",
     width: 840,
     height: 1600,
-    alt: "Photo record of flood relief & natural disasters by Shaheen Welfare Society.",
+    alt: "flood relief & natural disasters by Shaheen Welfare Society.",
     caption: "Relief and support for families affected by flooding or disaster.",
   },
   {
@@ -735,7 +735,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/relief-008.jpg",
     width: 1599,
     height: 1267,
-    alt: "Photo record of flood relief & natural disasters by Shaheen Welfare Society.",
+    alt: "flood relief & natural disasters by Shaheen Welfare Society.",
     caption: "Relief and support for families affected by flooding or disaster.",
   },
   {
@@ -744,7 +744,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/relief-009.jpg",
     width: 714,
     height: 1599,
-    alt: "Photo record of flood relief & natural disasters by Shaheen Welfare Society.",
+    alt: "flood relief & natural disasters by Shaheen Welfare Society.",
     caption: "Relief and support for families affected by flooding or disaster.",
   },
   {
@@ -756,7 +756,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 848,
     posterWidth: 480,
     posterHeight: 848,
-    alt: "Video record of flood relief & natural disasters by Shaheen Welfare Society.",
+    alt: "flood relief & natural disasters by Shaheen Welfare Society.",
     caption: "Relief and support for families affected by flooding or disaster.",
   },
   {
@@ -768,7 +768,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 832,
     posterWidth: 464,
     posterHeight: 832,
-    alt: "Video record of flood relief & natural disasters by Shaheen Welfare Society.",
+    alt: "flood relief & natural disasters by Shaheen Welfare Society.",
     caption: "Relief and support for families affected by flooding or disaster.",
   },
   {
@@ -780,7 +780,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 864,
     posterWidth: 480,
     posterHeight: 864,
-    alt: "Video record of flood relief & natural disasters by Shaheen Welfare Society.",
+    alt: "flood relief & natural disasters by Shaheen Welfare Society.",
     caption: "Relief and support for families affected by flooding or disaster.",
   },
   {
@@ -789,7 +789,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-001.jpg",
     width: 1280,
     height: 384,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -798,7 +798,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-002.jpg",
     width: 720,
     height: 960,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -807,7 +807,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-003.jpg",
     width: 720,
     height: 960,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -816,7 +816,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-004.jpg",
     width: 714,
     height: 1599,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -825,7 +825,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-005.jpg",
     width: 714,
     height: 1599,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -834,7 +834,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-006.jpg",
     width: 714,
     height: 1599,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -843,7 +843,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-007.jpg",
     width: 720,
     height: 540,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -852,7 +852,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-008.jpg",
     width: 780,
     height: 1040,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -861,7 +861,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-009.jpg",
     width: 780,
     height: 1040,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -870,7 +870,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-010.jpg",
     width: 780,
     height: 1040,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -879,7 +879,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-011.jpg",
     width: 714,
     height: 1599,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -888,7 +888,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-012.jpg",
     width: 720,
     height: 960,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -897,7 +897,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-013.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -906,7 +906,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-014.jpg",
     width: 1800,
     height: 809,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -915,7 +915,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-015.jpg",
     width: 780,
     height: 1040,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -924,7 +924,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-016.jpg",
     width: 1800,
     height: 809,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -933,7 +933,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-017.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -942,7 +942,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/environment-018.jpg",
     width: 1280,
     height: 787,
-    alt: "Photo record of plantation & the environment by Shaheen Welfare Society.",
+    alt: "plantation & the environment by Shaheen Welfare Society.",
     caption: "Plantation, kitchen-garden or environmental awareness activity.",
   },
   {
@@ -951,7 +951,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/rights-001.jpg",
     width: 1600,
     height: 800,
-    alt: "Photo record of rights, awareness & advocacy by Shaheen Welfare Society.",
+    alt: "rights, awareness & advocacy by Shaheen Welfare Society.",
     caption: "Women’s rights, safety or community-awareness activity.",
   },
   {
@@ -960,7 +960,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/rights-002.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of rights, awareness & advocacy by Shaheen Welfare Society.",
+    alt: "rights, awareness & advocacy by Shaheen Welfare Society.",
     caption: "Women’s rights, safety or community-awareness activity.",
   },
   {
@@ -969,7 +969,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/rights-003.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of rights, awareness & advocacy by Shaheen Welfare Society.",
+    alt: "rights, awareness & advocacy by Shaheen Welfare Society.",
     caption: "Women’s rights, safety or community-awareness activity.",
   },
   {
@@ -978,7 +978,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/rights-004.jpg",
     width: 1200,
     height: 1600,
-    alt: "Photo record of rights, awareness & advocacy by Shaheen Welfare Society.",
+    alt: "rights, awareness & advocacy by Shaheen Welfare Society.",
     caption: "Women’s rights, safety or community-awareness activity.",
   },
   {
@@ -987,7 +987,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/rights-005.jpg",
     width: 1600,
     height: 1200,
-    alt: "Photo record of rights, awareness & advocacy by Shaheen Welfare Society.",
+    alt: "rights, awareness & advocacy by Shaheen Welfare Society.",
     caption: "Women’s rights, safety or community-awareness activity.",
   },
   {
@@ -996,7 +996,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/rights-006.jpg",
     width: 1200,
     height: 1600,
-    alt: "Photo record of rights, awareness & advocacy by Shaheen Welfare Society.",
+    alt: "rights, awareness & advocacy by Shaheen Welfare Society.",
     caption: "Women’s rights, safety or community-awareness activity.",
   },
   {
@@ -1005,7 +1005,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/rights-007.jpg",
     width: 1200,
     height: 1600,
-    alt: "Photo record of rights, awareness & advocacy by Shaheen Welfare Society.",
+    alt: "rights, awareness & advocacy by Shaheen Welfare Society.",
     caption: "Women’s rights, safety or community-awareness activity.",
   },
   {
@@ -1014,7 +1014,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/rights-008.jpg",
     width: 1200,
     height: 1600,
-    alt: "Photo record of rights, awareness & advocacy by Shaheen Welfare Society.",
+    alt: "rights, awareness & advocacy by Shaheen Welfare Society.",
     caption: "Women’s rights, safety or community-awareness activity.",
   },
   {
@@ -1026,7 +1026,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 864,
     posterWidth: 480,
     posterHeight: 864,
-    alt: "Video record of rights, awareness & advocacy by Shaheen Welfare Society.",
+    alt: "rights, awareness & advocacy by Shaheen Welfare Society.",
     caption: "Women’s rights, safety or community-awareness activity.",
   },
   {
@@ -1038,7 +1038,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 864,
     posterWidth: 480,
     posterHeight: 864,
-    alt: "Video record of rights, awareness & advocacy by Shaheen Welfare Society.",
+    alt: "rights, awareness & advocacy by Shaheen Welfare Society.",
     caption: "Women’s rights, safety or community-awareness activity.",
   },
   {
@@ -1050,7 +1050,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 864,
     posterWidth: 480,
     posterHeight: 864,
-    alt: "Video record of rights, awareness & advocacy by Shaheen Welfare Society.",
+    alt: "rights, awareness & advocacy by Shaheen Welfare Society.",
     caption: "Women’s rights, safety or community-awareness activity.",
   },
   {
@@ -1059,7 +1059,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/community-001.jpg",
     width: 1600,
     height: 1033,
-    alt: "Photo record of community action & public life by Shaheen Welfare Society.",
+    alt: "community action & public life by Shaheen Welfare Society.",
     caption: "Shaheen Welfare Society community activity.",
   },
   {
@@ -1068,7 +1068,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/community-002.jpg",
     width: 612,
     height: 476,
-    alt: "Photo record of community action & public life by Shaheen Welfare Society.",
+    alt: "community action & public life by Shaheen Welfare Society.",
     caption: "Shaheen Welfare Society community activity.",
   },
   {
@@ -1077,7 +1077,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/community-003.jpg",
     width: 1280,
     height: 575,
-    alt: "Photo record of community action & public life by Shaheen Welfare Society.",
+    alt: "community action & public life by Shaheen Welfare Society.",
     caption: "Shaheen Welfare Society community activity.",
   },
   {
@@ -1086,7 +1086,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/community-004.jpg",
     width: 1461,
     height: 974,
-    alt: "Photo record of community action & public life by Shaheen Welfare Society.",
+    alt: "community action & public life by Shaheen Welfare Society.",
     caption: "Shaheen Welfare Society community activity.",
   },
   {
@@ -1095,7 +1095,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/community-005.jpg",
     width: 1599,
     height: 1200,
-    alt: "Photo record of community action & public life by Shaheen Welfare Society.",
+    alt: "community action & public life by Shaheen Welfare Society.",
     caption: "Shaheen Welfare Society community activity.",
   },
   {
@@ -1104,7 +1104,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/community-006.jpg",
     width: 1200,
     height: 1600,
-    alt: "Photo record of community action & public life by Shaheen Welfare Society.",
+    alt: "community action & public life by Shaheen Welfare Society.",
     caption: "Shaheen Welfare Society community activity.",
   },
   {
@@ -1113,7 +1113,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     src: "/gallery/fieldwork/community-007.jpg",
     width: 1280,
     height: 552,
-    alt: "Photo record of community action & public life by Shaheen Welfare Society.",
+    alt: "community action & public life by Shaheen Welfare Society.",
     caption: "Shaheen Welfare Society community activity.",
   },
   {
@@ -1125,7 +1125,7 @@ export const FIELDWORK_MEDIA: FieldworkMedia[] = [
     height: 854,
     posterWidth: 480,
     posterHeight: 854,
-    alt: "Video record of community action & public life by Shaheen Welfare Society.",
+    alt: "community action & public life by Shaheen Welfare Society.",
     caption: "Shaheen Welfare Society community activity.",
   },
 ];

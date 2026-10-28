@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import {
   AREAS_OF_EXPERTISE,
+  CONCLUSION,
   CORE_VALUES,
   DEVELOPMENT_INTERVENTIONS,
   FOCUS_AREAS,
@@ -54,6 +55,9 @@ export default function AboutPage() {
                 <div><dt>Head office</dt><dd>{SITE.address.replace('Head Office: ', '')}</dd></div>
                 <div><dt>Registration</dt><dd>{SITE.registration}</dd></div>
                 <div><dt>Working since</dt><dd>{SITE.founded}</dd></div>
+                <div><dt>Bank</dt><dd>{SITE.bank.name}</dd></div>
+                <div><dt>Account Title</dt><dd>{SITE.bank.title}</dd></div>
+                <div><dt>IBAN</dt><dd><code className="mono">{SITE.bank.iban}</code></dd></div>
               </dl>
 
               <h2 style={{ marginTop: 36 }}>Vision</h2>
@@ -173,6 +177,12 @@ export default function AboutPage() {
           <ul className="partner-index">
             {PARTNERS.map((partner) => <li key={partner}>{partner}</li>)}
           </ul>
+
+          <div className="card" style={{ marginTop: 36, borderLeft: '4px solid var(--green)' }}>
+            <h3>Looking Ahead</h3>
+            <p style={{ marginTop: 8, fontSize: '1.02rem', lineHeight: 1.6 }}>{CONCLUSION}</p>
+          </div>
+
           <p style={{ marginTop: 32 }}>
             <Link className="btn" href="/contact">Work with us</Link>
           </p>

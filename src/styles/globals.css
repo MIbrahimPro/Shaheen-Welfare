@@ -181,7 +181,7 @@ table.data tr:last-child td { border-bottom: none; }
 /* ---------- field work records ---------- */
 .fieldwork-intro {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   justify-content: space-between;
   gap: 28px;
   padding-bottom: 28px;
@@ -202,15 +202,23 @@ table.data tr:last-child td { border-bottom: none; }
 .fieldwork-category-head { max-width: 720px; margin-bottom: 26px; }
 .fieldwork-category-head h2 { margin-top: 3px; }
 .fieldwork-category-head p:last-child { color: var(--ink-soft); margin-top: 9px; }
-.fieldwork-eyebrow, .fieldwork-type {
+.fieldwork-eyebrow {
   color: var(--green);
   font-size: 0.74rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.fieldwork-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px 18px; }
-.fieldwork-card { min-width: 0; margin: 0; }
+.fieldwork-grid {
+  columns: 4;
+  column-gap: 20px;
+}
+.fieldwork-card {
+  break-inside: avoid;
+  margin: 0 0 24px;
+  display: block;
+  min-width: 0;
+}
 .fieldwork-media {
   overflow: hidden;
   background: var(--paper-dim);
@@ -223,9 +231,17 @@ table.data tr:last-child td { border-bottom: none; }
   color: var(--ink-soft);
   font-size: 0.82rem;
   line-height: 1.45;
-  padding: 9px 3px 0;
+  padding: 8px 2px 0;
 }
-.fieldwork-type { display: block; margin-bottom: 2px; font-size: 0.67rem; }
+.fieldwork-video-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-right: 6px;
+}
 .profile-archive { scroll-margin-top: 110px; border-top: 1px solid var(--line); padding-top: 54px; }
 
 /* programs: text and list side by side, stacked before tablets crowd */
@@ -301,7 +317,7 @@ table.data tr:last-child td { border-bottom: none; }
 @media (max-width: 980px) {
   .hero-inner, .two-col { grid-template-columns: 1fr; }
   .grid--2, .grid--3, .grid--4 { grid-template-columns: repeat(2, 1fr); }
-  .fieldwork-grid { grid-template-columns: repeat(3, 1fr); }
+  .fieldwork-grid { columns: 3; column-gap: 16px; }
   .gallery-masonry { columns: 2; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .partner-index { columns: 1; }
@@ -321,10 +337,13 @@ table.data tr:last-child td { border-bottom: none; }
 @media (max-width: 640px) {
   .grid--2, .grid--3, .grid--4 { grid-template-columns: 1fr; }
   .fieldwork-intro { align-items: start; flex-direction: column; }
-  .fieldwork-grid { grid-template-columns: repeat(2, 1fr); }
+  .fieldwork-grid { columns: 2; column-gap: 14px; }
   .gallery-masonry { columns: 1; }
   .footer-grid { grid-template-columns: 1fr; }
   .topbar .wrap span.hide-sm { display: none; }
   .topbar .wrap { flex-direction: column; gap: 2px; }
   .hero { padding-top: 8px; } .hero-inner { padding: 48px 0; }
+}
+@media (max-width: 440px) {
+  .fieldwork-grid { columns: 1; }
 }
